@@ -1,42 +1,16 @@
 import { useState, useCallback } from "react";
 import { MessageCircle } from "lucide-react";
 import { ChatWindow, Message } from "./ChatWindow";
+import { streamChat, ChatMessage } from "@/lib/chatService";
 import { cn } from "@/lib/utils";
-
-// Mock RAG responses - will be replaced with actual RAG integration
-const mockResponses: Record<string, string> = {
-  mikor: "A Női Vállalkozók Napja 2026. március 19-én, csütörtökön kerül megrendezésre 8:00-tól 18:30-ig! 📅",
-  hol: "Az esemény helyszíne a budapesti Bálna, ami egy lenyűgöző környezetet biztosít a rendezvénynek! 📍",
-  jegy: "A jegyeket a noivallalkozoknapja.com oldalon tudod megvásárolni. Most akár 43% kedvezménnyel szerezheted be! 🎟️",
-  program: "Az eseményen inspiráló előadások, networking lehetőségek, workshopok és kikapcsolódás vár! Egy teljes nap fejlődés és feltöltődés. ✨",
-  default: "Köszönöm a kérdésed! Kérlek írd le részletesebben, miben segíthetek a Női Vállalkozók Napjával kapcsolatban. Kérdezhetsz az időpontról, helyszínről, programról vagy a jegyvásárlásról! 💜"
-};
-
-const getResponse = (message: string): string => {
-  const lowerMessage = message.toLowerCase();
-  
-  if (lowerMessage.includes("mikor") || lowerMessage.includes("dátum") || lowerMessage.includes("időpont")) {
-    return mockResponses.mikor;
-  }
-  if (lowerMessage.includes("hol") || lowerMessage.includes("helyszín") || lowerMessage.includes("bálna")) {
-    return mockResponses.hol;
-  }
-  if (lowerMessage.includes("jegy") || lowerMessage.includes("ár") || lowerMessage.includes("kedvezmény") || lowerMessage.includes("vásárl")) {
-    return mockResponses.jegy;
-  }
-  if (lowerMessage.includes("program") || lowerMessage.includes("előadás") || lowerMessage.includes("workshop")) {
-    return mockResponses.program;
-  }
-  
-  return mockResponses.default;
-};
+import { toast } from "sonner";
 
 export const ChatWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([]);
   const [isTyping, setIsTyping] = useState(false);
 
-  const handleSend = useCallback((content: string) => {
+  const handleSend = useCallback(async (content: string) => {
     const userMessage: Message = {
       id: `user-${Date.now()}`,
       content,
@@ -47,18 +21,60 @@ export const ChatWidget = () => {
     setMessages((prev) => [...prev, userMessage]);
     setIsTyping(true);
 
-    // Simulate RAG response delay
-    setTimeout(() => {
-      const botMessage: Message = {
-        id: `bot-${Date.now()}`,
-        content: getResponse(content),
-        isUser: false,
-        timestamp: new Date(),
-      };
-      setMessages((prev) => [...prev, botMessage]);
-      setIsTyping(false);
-    }, 1000 + Math.random() * 1000);
-  }, []);
+    // Convert to API format
+    const apiMessages: ChatMessage[] = [
+      ...messages.map((m) => ({
+        role: m.isUser ? "user" as const : "assistant" as const,
+        content: m.content,
+      })),
+      { role: "user" as const, content },
+    ];
+
+    let assistantContent = "";
+    const botMessageId = `bot-${Date.now()}`;
+
+    const updateAssistant = (chunk: string) => {
+      assistantContent += chunk;
+      setMessages((prev) => {
+        const lastMsg = prev[prev.length - 1];
+        if (lastMsg && !lastMsg.isUser && lastMsg.id === botMessageId) {
+          return prev.map((m) =>
+            m.id === botMessageId ? { ...m, content: assistantContent } : m
+          );
+        }
+        return [
+          ...prev,
+          {
+            id: botMessageId,
+            content: assistantContent,
+            isUser: false,
+            timestamp: new Date(),
+          },
+        ];
+      });
+    };
+
+    await streamChat({
+      messages: apiMessages,
+      onDelta: updateAssistant,
+      onDone: () => setIsTyping(false),
+      onError: (error) => {
+        toast.error(error);
+        // Add error message as bot response
+        if (!assistantContent) {
+          setMessages((prev) => [
+            ...prev,
+            {
+              id: botMessageId,
+              content: "Sajnálom, jelenleg nem tudok válaszolni. Kérlek próbáld újra később, vagy látogass el a noivallalkozoknapja.com oldalra! 💜",
+              isUser: false,
+              timestamp: new Date(),
+            },
+          ]);
+        }
+      },
+    });
+  }, [messages]);
 
   return (
     <div className="fixed bottom-6 right-6 z-50">
