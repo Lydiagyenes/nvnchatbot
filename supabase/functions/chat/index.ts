@@ -16,7 +16,9 @@ const allowedOrigins = [
 // Dinamikus CORS header-ek az origin alapján
 const getCorsHeaders = (origin: string | null) => {
   const isAllowed = origin && allowedOrigins.some(allowed => 
-    origin === allowed || origin.endsWith(".lovable.app")
+    origin === allowed || 
+    origin.endsWith(".lovable.app") || 
+    origin.endsWith(".lovableproject.com")
   );
   
   return {
