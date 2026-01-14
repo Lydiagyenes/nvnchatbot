@@ -1,12 +1,20 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { DemoHeader } from "@/components/demo/DemoHeader";
+import { DemoNav } from "@/components/demo/DemoNav";
+import { DemoHero } from "@/components/demo/DemoHero";
+import { DemoContent } from "@/components/demo/DemoContent";
+import { ChatWidget } from "@/components/chat/ChatWidget";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      {/* Demo Site Layout - Will be removed for WordPress plugin */}
+      <DemoHeader />
+      <DemoNav />
+      <DemoHero />
+      <DemoContent />
+      
+      {/* Chat Widget - This is the actual plugin component */}
+      <ChatWidget />
     </div>
   );
 };
