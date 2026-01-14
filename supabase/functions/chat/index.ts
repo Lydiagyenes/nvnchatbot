@@ -1,9 +1,15 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
 };
+
+// Supabase client for logging
+const supabaseUrl = Deno.env.get("SUPABASE_URL")!;
+const supabaseServiceKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!;
+const supabase = createClient(supabaseUrl, supabaseServiceKey);
 
 // Aktuális dátum lekérdezése a dinamikus árképzéshez
 const getCurrentDate = () => new Date();
@@ -327,12 +333,19 @@ serve(async (req) => {
   }
 
   try {
-    const { messages } = await req.json();
+    const { messages, sessionId } = await req.json();
     const LOVABLE_API_KEY = Deno.env.get("LOVABLE_API_KEY");
     
     if (!LOVABLE_API_KEY) {
       throw new Error("LOVABLE_API_KEY is not configured");
     }
+
+    // Generate session ID if not provided
+    const chatSessionId = sessionId || crypto.randomUUID();
+    
+    // Get the last user message for logging
+    const lastUserMessage = messages.filter((m: { role: string }) => m.role === "user").pop();
+    const userMessageContent = lastUserMessage?.content || "";
 
     const pricingInfo = getPricingInfo();
     const today = getCurrentDate().toLocaleDateString('hu-HU', { year: 'numeric', month: 'long', day: 'numeric' });
@@ -437,7 +450,59 @@ Ha a felhasználó olyan kérdést tesz fel, amire nincs válasz a tudásbázisb
       );
     }
 
-    return new Response(response.body, {
+    // Collect full response for logging
+    const reader = response.body?.getReader();
+    const decoder = new TextDecoder();
+    let fullBotResponse = "";
+    const chunks: Uint8Array[] = [];
+
+    if (reader) {
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        
+        chunks.push(value);
+        const text = decoder.decode(value, { stream: true });
+        
+        // Parse SSE to extract content
+        const lines = text.split('\n');
+        for (const line of lines) {
+          if (line.startsWith('data: ') && !line.includes('[DONE]')) {
+            try {
+              const json = JSON.parse(line.slice(6));
+              const content = json.choices?.[0]?.delta?.content;
+              if (content) {
+                fullBotResponse += content;
+              }
+            } catch {
+              // Ignore parse errors for partial chunks
+            }
+          }
+        }
+      }
+    }
+
+    // Log to database (async, don't wait)
+    supabase
+      .from('chat_logs')
+      .insert({
+        session_id: chatSessionId,
+        user_message: userMessageContent,
+        bot_response: fullBotResponse,
+      })
+      .then(({ error }) => {
+        if (error) console.error("Failed to log chat:", error);
+      });
+
+    // Reconstruct the stream for the response
+    const combinedChunks = new Uint8Array(chunks.reduce((acc, chunk) => acc + chunk.length, 0));
+    let offset = 0;
+    for (const chunk of chunks) {
+      combinedChunks.set(chunk, offset);
+      offset += chunk.length;
+    }
+
+    return new Response(combinedChunks, {
       headers: { ...corsHeaders, "Content-Type": "text/event-stream" },
     });
   } catch (error) {

@@ -2,6 +2,9 @@ export type ChatMessage = { role: "user" | "assistant"; content: string };
 
 const CHAT_URL = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/chat`;
 
+// Generate unique session ID for this chat instance
+const sessionId = crypto.randomUUID();
+
 export async function streamChat({
   messages,
   onDelta,
@@ -20,7 +23,7 @@ export async function streamChat({
         "Content-Type": "application/json",
         Authorization: `Bearer ${import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY}`,
       },
-      body: JSON.stringify({ messages }),
+      body: JSON.stringify({ messages, sessionId }),
     });
 
     // Handle error responses
