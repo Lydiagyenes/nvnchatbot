@@ -5,15 +5,67 @@ const corsHeaders = {
   "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
 };
 
+// Aktuális dátum lekérdezése a dinamikus árképzéshez
+const getCurrentDate = () => new Date();
+
+// Kedvezmények határidői és árai
+const getPricingInfo = () => {
+  const now = getCurrentDate();
+  const year = now.getFullYear();
+  
+  // Árperiódusok 2026-ra
+  const periods = [
+    { deadline: new Date(2025, 10, 23), discount: "52%", label: "november 23-ig" },
+    { deadline: new Date(2025, 11, 11), discount: "48%", label: "december 11-ig" },
+    { deadline: new Date(2026, 0, 15), discount: "43%", label: "január 15-ig" },
+    { deadline: new Date(2026, 1, 10), discount: "35%", label: "február 10-ig" },
+    { deadline: new Date(2026, 2, 5), discount: "25%", label: "március 5-ig" },
+    { deadline: new Date(2026, 2, 17), discount: "0%", label: "teljes ár" },
+  ];
+
+  // Aktuális árak (január 15-ig érvényes kedvezménnyel - 43%)
+  const currentPrices = {
+    basic: { original: "49.900 Ft + áfa", discounted: "29.000 Ft + áfa", pairPerPerson: "26.000 Ft + áfa/fő" },
+    premium: { original: "59.900 Ft + áfa", discounted: "34.000 Ft + áfa", pairPerPerson: "27.200 Ft + áfa/fő" },
+    vip: { original: "99.900 Ft + áfa", discounted: "84.000 Ft + áfa", pairPerPerson: "67.200 Ft + áfa/fő" },
+    shownotes: "9.900 Ft + áfa (VIP jegyben benne van!)"
+  };
+
+  // Aktuális periódus meghatározása
+  let currentPeriod = periods[periods.length - 1];
+  for (const period of periods) {
+    if (now <= period.deadline) {
+      currentPeriod = period;
+      break;
+    }
+  }
+
+  return { currentPeriod, currentPrices, periods };
+};
+
 // RAG Knowledge Base - NVN 2026 Teljes tudásbázis
 const ragKnowledgeBase = `
 # Női Vállalkozók Napja 2026 - Teljes Tudásbázis
+
+## 🗓️ AKTUÁLIS DÁTUM ÉS ÁRINFORMÁCIÓ
+- **Mai dátum:** ${getCurrentDate().toLocaleDateString('hu-HU', { year: 'numeric', month: 'long', day: 'numeric' })}
+- **Aktuális kedvezmény:** ${getPricingInfo().currentPeriod.discount} (${getPricingInfo().currentPeriod.label})
+- **Fontos határidők:**
+  - November 23-ig: 52% kedvezmény
+  - December 11-ig: 48% kedvezmény  
+  - Január 15-ig: 43% kedvezmény
+  - Február 10-ig: 35% kedvezmény
+  - Március 5-ig: 25% kedvezmény
+  - Március 5-től: teljes ár
+  - **Március 17. (kedd): UTOLSÓ NAP a vásárlásra!**
 
 ## 🎯 Alapinformációk
 - **Dátum:** 2026. március 19., csütörtök
 - **Időpont:** 8:00 - 18:30
 - **Helyszín:** Bálna Budapest (1093 Budapest, Fővám tér 11-12.)
 - **Weboldal:** noivallalkozoknapja.com
+- **Email:** iroda@noivallalkozoknapja.hu
+- **Telefon:** +36 30 6565 044 (hétköznapokon 10:00-16:00)
 - **Ez a 6. alkalom** - 2020 óta rendezik meg
 - **Európa top 5** női vállalkozóknak szóló rendezvényei között van
 - **Magyarország legnagyobb** célzottan vállalkozó nőknek szóló eseménye
@@ -39,166 +91,233 @@ const ragKnowledgeBase = `
 - **Ez befektetés, nem szórakozás** - ez ugyanúgy munka és önfejlesztés
 - Sikertörténet: Tógyer Andrea (Gyémánt Lélek Központ) - 2025-ös NVN-en annyi partnert talált, hogy most 5 standot kért!
 
-## 🎫 Jegytípusok és árak
+## 🎫 Jegytípusok és AKTUÁLIS árak
 
-### BASIC jegy
-- Belépés az eseményre
-- Hozzáférés a főbb programokhoz
+### BASIC jegy - "Terepfelmérős"
+- **Eredeti ár:** 49.900 Ft + áfa
+- **Aktuális kedvezményes ár:** 29.000 Ft + áfa (43% kedvezmény január 15-ig!)
+- **Páros jegy:** 26.000 Ft + áfa/fő (20% extra kedvezmény!)
+- **Mit tartalmaz:**
+  - Szabadon választhatsz az összes előadás/workshop közül
+  - Részt vehetsz az "útleveles" nyereményjátékban
+  - Kihasználhatod a kiállítók kedvezményes, exkluzív ajánlatait
+  - Részt vehetsz a networking before partyn a rendezvény előtti estén
+  - Ajándékok: táska, jegyzetfüzet, toll, vitaminvíz
 
-### PREMIUM jegy
-- Minden, ami a BASIC-ben
-- **Networking terembe belépés**
-- **Előadások felvételei 2 évig elérhetőek**
+### PREMIUM jegy - "Legnépszerűbb" ⭐
+- **Eredeti ár:** 59.900 Ft + áfa
+- **Aktuális kedvezményes ár:** 34.000 Ft + áfa (43% kedvezmény január 15-ig!)
+- **Páros jegy:** 27.200 Ft + áfa/fő (20% extra kedvezmény!)
+- **Mit tartalmaz (minden, ami a BASIC-ben, plusz):**
+  - Részvétel a kapcsolatépítő programokon
+  - **Hozzáférés az előadások felvételeihez 2 évig!**
+  - Privát online konzultációs lehetőség szakértőinkkel
 
-### VIP jegy (Kedvezőbb, mint tavaly, és sokkal több extra!)
-- Minden, ami a PREMIUM-ban
-- 30.000 Ft értékű Social Media Marketing könyvcsomag
-- Catering fingerfooddal
-- Egyedi masszázs
-- Szaffi goody bag
-- Parfümös mintatermék
-- **Shownotes benne van!**
-- Konzultációkon való részvétel lehetősége
+### VIP jegy - "Legjobb ár-érték" 👑
+- **Eredeti ár:** 99.900 Ft + áfa
+- **Aktuális kedvezményes ár:** 84.000 Ft + áfa (kedvezőbb, mint tavaly!)
+- **Páros jegy:** 67.200 Ft + áfa/fő (20% extra kedvezmény!)
+- **Mit tartalmaz (minden, ami a PREMIUM-ban, plusz):**
+  - Soron kívüli beléptetés
+  - Hozzáférés a VIP teremhez
+  - **Shownotes benne van!** (digitális jegyzetgyűjtemény)
+  - Catering egész nap (kávé, víz, üdítő, finger food, pogácsa, gyümölcs)
+  - Me-time masszázs a VIP teremben
+  - 30.000 Ft értékű social media és marketing könyvcsomag (Marketing Amazing)
+  - Szafi RAW BAR datolyás szeletek
+  - ANITATOTH termékminta és ajándék voucher
+  - Naturcleaning termékminta és ajándék voucher
 
 ### Shownotes (Nagyon népszerű! 🔥)
-- Upsellben 9.900 Ft + ÁFA-ért megvehető
-- VIP jegyben benne van
+- **Ár:** 9.900 Ft + áfa (VIP jegyben már benne van!)
 - Online katalógus, digitális jegyzetgyűjtemény
 - Nem kell jegyzetelni, minden szóról szóra benne van hivatkozásokkal
+- Diasorok, hasznos linkek, kiegészítő információk
 - Szponzorok, egyedi ajánlatok
 - **Örök hozzáférés**
 - Prezi része nyomtatható
 - Upgrade lehetőség a Marketing Amazing standjánál
 
-### Kedvezmények és határidők
-- **Csoportos kedvezmény már páros jegynél is!**
+### 🎁 NYITÓNAPI BÓNUSZ (csak aznap vásárlóknak!)
+- Belépő Dr. Zolnay Judit "Helyzetfüggő vezetés" élő online képzésére
+- Részvétel a 430.000+ Ft értékű sorsoláson:
+  - 30.000 Ft Social Media könyvcsomag (Marketing Amazing)
+  - Amazing AI Tudástár éves előfizetés (120.000 Ft)
+  - Balloon World Cégtúra (90.000 Ft) + konzultáció Forray Nikolettel
+  - 3 hónapos Content Catapult tagság (38.000 Ft)
+  - Kékfényszűrő szemüveg (Rewa)
+  - Arcjóga Kimaxolva kihíváscsomag
+  - Ultrahangos fogkő-eltávolítás (Dentist For You)
+  - Sminkvarázs workshop (Czopkó Nóra)
+
+### Csoportos kedvezmények 👯‍♀️
+- **2-5 fő:** 20% kedvezmény
+- **6-10 fő:** 25% kedvezmény
+- **11-15 fő:** 30% kedvezmény
+- **16-20 fő:** 35% kedvezmény
+- A rendszer automatikusan levonja, ha növeled a darabszámot!
 - Kedvezmény a nettó árból értendő + ÁFA
-- **Fontos dátumok:**
-  - November 23, December 11, Január 15, Február 10, Március 5
-  - Március 5-től teljes ár
-  - **Március 17. (kedd) a zárás**
 
-### Részletfizetés
-- **Igen, lehet részletfizetni!** 💳
-- 2-3 egymást követő hónapban, egyenlő részekben
+### 💳 Részletfizetés
+- **Igen, van részletfizetés!**
+- 2 vagy 3 egyenlő részletben, egymást követő hónapokban
+- Írj az iroda@noivallalkozoknapja.hu címre
+- **Fontos:** Részletfizetési szándékod max. 2026. február 15-ig jelezd!
+- Februártól már csak 2 részletben lehetséges
 
-### Garancia
-- Vásárlástól számított **3 napon belül** lehet elállni
-- Ezen kívül nincs visszafizetés
-- Premium/VIP esetén a felvételeket megkapja akkor is
-- Jóváírjuk a jegytípust a következő évben
-- Ha az eseményen nem érzi jól magát és **aznap délig ír**, visszautalás van
+### ✅ Garancia
+- **3 napon belül:** vásárlástól számítva kérdés nélkül visszafizetjük
+- **Később:** sajnos nincs visszafizetés, DE:
+  - Premium/VIP esetén a felvételeket megkapod
+  - Jóváírjuk a jegyet a következő évre
+- **Elégedettségi garancia:** Ha a helyszínen nem érzed jól magad és **ebédszünetig jelzed**, visszafizetjük!
 
 ## 🎤 Program és helyszínek
 
-### Előadótermek
-- **Görgey terem (nagy):** 700 fős - Czopkó Nóri konferál
-- **Aghátya terem (kisebb):** 250 fős - Szabó-Veres Anita műsorvezető
-- **Hadik terem (kisebb):** 250 fős - Csontné-Nagy Noémi műsorvezető
-- A műsorvezetőkkel már lehetett találkozni korábbi években - pszichológusok és vállalkozókkal is foglalkoznak
-- **27 előadás lesz összesen**, egésznapos párhuzamos programokkal
+### Előadótermek - 27 előadás 3 teremben!
+- **Görgey terem (nagy, 700 fős):** Czopkó Nóra konferál
+- **Aghátya terem (250 fős):** Szabó-Veres Anita műsorvezető
+- **Hadik terem (250 fős):** Csontné-Nagy Noémi műsorvezető
+- A műsorvezetők pszichológusok és vállalkozókkal is foglalkoznak
+
+### Előadási témák:
+- Határhúzás, Beszédtechnika, Pénzügyek
+- Social media jelenlét, Instagram, TikTok
+- Vezetői skillek, Munka-magánélet egyensúly
+- AI, Motiváció, Generációváltás
+- Szövegírás a gyakorlatban, Időmenedzsment
 
 ### RELAX terem 🧘
 - Pihenésre, feltöltődésre
-- Hangfürdő, csíkung, reggeli meditáció - Gálik Klára tartja
-- Beszélgetések, nem rohanós, kötetlen
-- Női lélek, egyéb szerepek, praktikák témákban
+- Hangfürdő, csíkung, reggeli meditáció - Gálik Klára (Szkálosi Rita Selina) tartja
+- Női lélek, egyéb szerepek, praktikák
 - Napi rituálék kialakítása, sikerek-kudarcok
-- 30 perces arcjóga (nem teszi tönkre a sminket! 💄)
-- Szőnyeges terem
-- Interaktívan lehet beszélgetni az előadóval
+- 30 perces arcjóga (Polgár Enikő) - nem teszi tönkre a sminket! 💄
+- Szőnyeges terem, interaktív beszélgetések
 
 ### NETWORKING terem 🤝
-- Premium és VIP jeggyel lehet bemenni
+- Premium és VIP jeggyel érhető el
 - Kapcsolatépítés hasonló gondolkodású nőkkel
 
 ### MEET UP terem
 - Közönségtalálkozó műsorok
-- Előfizetés indítása
-- Botkai Szilvi, Gyöngyvér - kihívás résztvevőkkel
+- Botkai Szilvi, Mihalik Gyöngyvér
 
 ### Before Party 🎉
-- Az esemény előtt, networking céllal
-- Zene, workshopok
-- Egyedül is el lehet jönni, már ott barátkozni
+- Rendezvény előtti este
+- Zene, workshopok, networking
+- Egyedül is tökéletes, már ott barátkozni lehet!
+
+## 🌟 Előadók (akikkel biztosan találkozhatsz)
+- **Oroszlán Szonja** - Színművész
+- **Kende-Hoffher Krisztina** - TMC GROUP alapító, CEO
+- **Al Ghaoui Hesna** - Író, újságíró, reziliencia tréner
+- **Dr. Zolnay Judit** - Vezetési és üzleti tanácsadó, mentor, coach
+- **Zsolt Orsolya** - Multi Alarm Zrt. vezérigazgatója
+- **Cserháti-Herold Janka** - Termékenységtudat-szakértő
+- **Forray Nikolett** - Balloon World Hungary tulajdonosa
+- **Jilly Krisztina** - Marketing specialista, Social and More CEO
+- **Fenyő Csilla** - Online marketing szakértő, The Content Queen
+- **Beros Loretta** - Pszichológus, közgazdász
+- **Dr. Bús Enikő** - Szövegíró, Szövegelő Klub alapítója
+- **Gyenes Lídia** - Újságíró, AI kutató, Amazing AI
+- **Egerszegi Krisztián** - MiniCRM exitált tulajdonos, Cégépítők alapítója
+- **Czopkó Nóra** - A nap házigazdája, pszichológus
+- **Mihalik Gyöngyvér** - A Női Vállalkozók Napja megálmodója
+- És még sokan mások! A program folyamatosan frissül.
 
 ## 🆕 Újdonságok 2026-ban
 
+### Új helyszín: Bálna Budapest
+- Több szint, szuper környezet, új lehetőségek
+
 ### Online konzultációk
-- A rendezvény előtt és után 1-1 hétben online konzultációk
-- Kiállítókat kérjük fel konzulensnek
-- A kiállítók szabják meg, mit vállalnak (hossz, coaching, felmérés...)
-- Drágább jegyekhez tartozik
+- A rendezvény előtt és után 1-1 hétben
+- Kiállítók tartják, személyre szabott tanácsadás
+- Drágább jegyekhez tartozik (Premium, VIP)
 
 ### Díjátadó 🏆
-- 3-4 kategória, amire pályázni lehet majd
-- Független szakmai zsűri (szponzorok, előadók)
-
-### Kiállítás/Mozi 🎬
-- Dokumentumfilm jelleggel interjúk vetítése egész nap
+- 3-4 kategória, független szakmai zsűri
 
 ### "Női Vállalkozók Hangja" pályázat 🎙️
-- 1 hölgynek lehetőség 30 perces előadást tartani
-- Pályázási lehetőség az oldalon
-- Dórinak írjanak! Bemutatkozó + rövid tematika leírás
+- 1 hölgynek 30 perces előadás lehetőség
+- Jelentkezés: iroda@noivallalkozoknapja.hu (Dórinak)
+- Bemutatkozó videó + tervezett tematika
 - Kiválasztottak 15 perces demót tartanak
-- A nyertes 1 hónappal hamarabb kap értesítést
+- Győztes 1 hónappal hamarabb értesül
 
-## 🏪 Kiállítói tér
-- Sokszínű: coachok, termék értékesítők, vállalkozás fejlesztők (kivitelezés, stratégia, megvalósítás)
-- Közel 80 kiállító lesz
-- Térkép már megvan - egészség, szépség, wellbeing speckó helyen
+### Kiállítás/Mozi 🎬
+- Dokumentumfilm jellegű interjúk vetítése egész nap
 
-## 📱 Kapcsolódási pontok
+## 🏪 Kiállítói tér (közel 80 kiállító!)
+**Jelenlegi kiállítók:**
+ANKA optika, Hormonmentes-Ladea, Secret Soul Coaching, ANITATOTH Organic, Joy of You, Brandbirds, Marina Miracle, J. Rose Clinic, Gyémántlélek Központ, Hotel Európa Fit Hévíz, Z-Press Kiadó, Santai Home&Living, NaturCleaning, DotRoll, Awaken Accounting, Rewa, PPD Online, doTERRA, Compass Med, Dentist for you, Bankmonitor Partner, Balance, Gál Kristóf, Rossz Anyák Tábora, Pilates Palace, Brandlegends Agency, The Beauty, Me-time massage, BB Web, Szövegelő Klub, Folyamatmodell.hu
 
-### Podcast & Tartalmak
-- Hetente szerdánként podcast epizódok (YouTube, Facebook)
-- Előadókat lehet megismerni jobban
-- Live-ok konkrét témákkal
+## 🚌 Megközelítés - Tömegközlekedést ajánljuk!
+**A Bálna Budapest a Petőfi-híd és Szabadság-híd között:**
+- **M4-es metró** - legközelebbi
+- **2-es, 4-6-os, 47-es, 49-es villamosok**
+- Számtalan busz, HÉV, troli
+- **Parkolás:** 100 hely van a Bálnában, de gyorsan betelik! Inkább tömegközlekedéssel gyere!
 
-### Webinárok
-- Email listára fel lehet iratkozni
-
-### Business Brunch
-- 4 alkalommal, 1-1 szakértővel
-- Networking
-- Helyszín: Zazi (MOL székház aljában)
+## 🍽️ Étkezés
+- Kávé, víz, édes és sós péksütemény a standoknál
+- Külön büfé szendvicsekkel
+- VIP jeggyel: catering egész nap!
+- A Bálnában éttermek is vannak (à la carte, hosszabb kiszolgálás)
 
 ## 🎮 Útlevél játék
-- 10 ajándékot sorsolnak ki
-- A látogatók minden kiállítóhoz eljutnak az útlevéljáték miatt (email címért pecsét)
+- 10 értékes ajándékot sorsolnak ki
+- Minden kiállítóhoz eljutva gyűjtsd a pecséteket!
 
 ## 📧 Kiállítónak jelentkezés
 
 ### Árak és feltételek
-- 45.000 Ft/nm áron
-- **Kedvezmény a standból? Sajnos nem tudunk adni.**
-- **Részletfizetés van!** 2-3 egymást követő hónapban, egyenlő részek
+- **45.000 Ft/nm** áron
+- **Kedvezmény a standból? Sajnos nincs.**
+- **Részletfizetés VAN!** 2-3 részletben
 
-### Jelentkezés lépései
-1. Űrlap kitöltése (ez még nem kötelez semmire)
-2. 1/1-es online onboarding megbeszélés 30-40 percben
-3. Felmerülő kérdések, bizonytalanságok megbeszélése
-4. Közös stand kiválasztás
-5. Fizetési ütem és mód egyeztetése
+### Jelentkezés menete:
+1. Űrlap kitöltése (nem kötelez)
+2. Online onboarding megbeszélés (30-40 perc)
+3. Stand kiválasztás
+4. Fizetési ütem egyeztetés
 
-### Amit kínálunk kiállítóknak
-- Ne legyen telített a kiállítói tér - 1-1 márkától 1-1 képviselő
+### Előnyök kiállítóknak:
 - Létszám garancia, stand visszafizetési biztosíték
-- Valódi fizetőképes ügyfeleket hozunk (a nők szeretnek költeni! 😄)
-- Családokat megszólító vállalkozásoknak is hasznos
-- Minden látogató eljut minden kiállítóhoz (útlevéljáték miatt)
-- Oktatóanyag, felvétel a kampány során
-- Lehetőség előadás és workshop tartásra is
-- Marketing csomagok rugalmas összeválogatása
-- Szoros kapcsolat a szervezőkkel
+- Valódi fizetőképes ügyfelek (a nők szeretnek költeni! 😄)
+- Minden látogató eljut hozzád (útlevéljáték)
+- Lehetőség előadás/workshop tartásra
+- Marketing csomagok rugalmasan
+- Email: iroda@noivallalkozoknapja.hu
 
-## 🚌 Megközelítés
-- Tömegközlekedéssel könnyen elérhető a Bálna!
-- Fővám tér megálló közvetlen közelében
+## 📱 Kapcsolódási pontok
+- **Podcast:** Hetente szerdánként (YouTube, Facebook)
+- **Live-ok:** Konkrét témákkal
+- **Webinárok:** Email listára fel lehet iratkozni
+- **Business Brunch:** 4 alkalom, Zazi (MOL székház)
+
+## ❓ Gyakori kérdések (GYIK)
+
+**Hogyan jutok a jegyemhez?**
+Sikeres vásárlás után automatikusan kapod a QR-kódos azonosítót. Nézd meg a Promóciók/Spam mappát is!
+
+**Változtatnék a jegyemen:**
+Írj az iroda@noivallalkozoknapja.hu címre, a különbözet utalásával módosítható.
+
+**Mikor kapom a felvételeket?**
+Premium/VIP esetén a rendezvény után kb. 1 hónapon belül, 2 évig elérhető.
+
+**Áfa kérdés (külföldi vásárlóknak):**
+27% ÁFA-t felszámolunk (teljesítés helye: Magyarország). EU-s cégek visszaigényelhetik az ELEK rendszeren.
 
 ## 💡 Javaslat gyűjtés
 Ha bárkinek van ötlete témákra, programokra, bármire - szívesen gyűjtöm és továbbítom a szervezőknek!
+
+## 📞 Kapcsolat
+- **Email:** iroda@noivallalkozoknapja.hu (pár órán belül válaszolnak)
+- **Telefon:** +36 30 6565 044 (hétköznap 10:00-16:00)
+- **Weboldal:** noivallalkozoknapja.com
 `;
 
 serve(async (req) => {
@@ -215,38 +334,45 @@ serve(async (req) => {
       throw new Error("LOVABLE_API_KEY is not configured");
     }
 
+    const pricingInfo = getPricingInfo();
+    const today = getCurrentDate().toLocaleDateString('hu-HU', { year: 'numeric', month: 'long', day: 'numeric' });
+
     const systemPrompt = `Te vagy az NVN Asszisztens, a Női Vállalkozók Napja 2026 rendezvény kedves és lelkes chatbotja! 💜
+
+## 🗓️ KRITIKUS: AKTUÁLIS DÁTUM ÉS ÁRAK
+- **Mai dátum: ${today}**
+- **Aktuális kedvezmény: ${pricingInfo.currentPeriod.discount}** (${pricingInfo.currentPeriod.label})
+- Mindig a PONTOS aktuális árakat mondd!
 
 ## Személyiséged és stílusod
 - Közvetlen, tegező stílus, de tisztelettudó
-- Használj releváns emojokat a válaszokban 💪✨🎉
+- Használj releváns emojokat 💪✨🎉
 - Legyél bátorító, inspiráló és pozitív
 - Ha valaki bizonytalan, adj pozitív választ - mindenre van megoldás!
 - Egyedi ajánlatokra tereld őket, ha releváns
+- Ha javaslatuk van, kérd ki és mondd, hogy továbbítod a szervezőknek!
 
 ## Kifogáskezelés - Mindig pozitív válasz!
 - "Nincs időm" → Ez egy nap befektetés magadba és a vállalkozásodba!
-- "Drága" → Van részletfizetés, és csoportos kedvezmény már 2 főtől!
+- "Drága" → Van részletfizetés (2-3 részlet), és csoportos kedvezmény már 2 főtől 20%!
 - "Nem passzolok oda" → A résztvevők 60%-a induló vállalkozó, senkit nem néznek ki!
-- "Egyedül vagyok" → Tökéletes! Már a before partyn barátkozni lehet!
+- "Egyedül vagyok" → Tökéletes! Before partyn és helyszínen is barátkozni lehet, kedvesek az emberek!
 - "Férfi vagyok" → Persze, férfiak is jöhetnek! 🙌
 - "Nem szellemi munkás vagyok" → Minden területről jönnek, mindenkinek hasznos!
 
 ## Tömegközlekedés
-Ha szállásról vagy közlekedésről kérdeznek, tereld őket a tömegközlekedés felé - a Bálna könnyen elérhető!
-
-## Javaslat gyűjtés
-Ha valakinek ötlete van programra, témára, bármire - kérd ki és mondd, hogy szívesen továbbítod a szervezőknek!
+Ha szállásról vagy közlekedésről kérdeznek, tereld őket a tömegközlekedés felé - a Bálna szuper könnyen elérhető M4 metróval, villamosokkal!
 
 ## Fontos szabályok
 - Válaszolj magyarul, max 2-4 mondatban (hacsak nem kérnek részletesebb infót)
-- Ha nincs pontos információd, irányítsd a noivallalkozoknapja.com oldalra
+- Ha nincs pontos információd, irányítsd a noivallalkozoknapja.com oldalra vagy az iroda@noivallalkozoknapja.hu emailre
 - Hangsúlyozd: ez befektetés, nem szórakozás!
+- Áraknál MINDIG az aktuális kedvezményt mondd!
 
 ## Tudásbázis
 ${ragKnowledgeBase}
 
-Ha a felhasználó olyan kérdést tesz fel, amire nincs válasz a tudásbázisban, mondd el őszintén, de javasolj alternatívát (weboldal, email: info@noivallalkozoknapja.com).`;
+Ha a felhasználó olyan kérdést tesz fel, amire nincs válasz a tudásbázisban, mondd el őszintén, de javasolj alternatívát.`;
 
     const response = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
       method: "POST",
