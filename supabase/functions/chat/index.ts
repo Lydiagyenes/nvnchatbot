@@ -181,57 +181,123 @@ const ragKnowledgeBase = `
 
 ## 🎤 Program és helyszínek
 
-### Előadótermek - 27 előadás 3 teremben!
-- **Görgey terem (nagy, 700 fős):** Czopkó Nóra konferál
-- **Aghátya terem (250 fős):** Szabó-Veres Anita műsorvezető
-- **Hadik terem (250 fős):** Csontné-Nagy Noémi műsorvezető
-- A műsorvezetők pszichológusok és vállalkozókkal is foglalkoznak
+### Előadótermek
+- **Görgey terem (500 fő):** Czopkó Nóra konferál - fő előadások
+- **Hadik terem (250 fő):** Kisebb, fókuszált előadások
+- **Aggházy terem (250 fő):** Kisebb, fókuszált előadások
+- **Hősök terem - MeetUp:** Közönségtalálkozók, workshopok
+- **Kinizsi terem - Relax:** Meditáció, arcjóga, hangfürdő, lelki programok
 
-### Előadási témák:
-- Határhúzás, Beszédtechnika, Pénzügyek
-- Social media jelenlét, Instagram, TikTok
-- Vezetői skillek, Munka-magánélet egyensúly
-- AI, Motiváció, Generációváltás
-- Szövegírás a gyakorlatban, Időmenedzsment
+## 📅 RÉSZLETES NAPI PROGRAM (2026. március 19.)
 
-### RELAX terem 🧘
-- Pihenésre, feltöltődésre
-- Hangfürdő, csíkung, reggeli meditáció - Gálik Klára (Szkálosi Rita Selina) tartja
-- Női lélek, egyéb szerepek, praktikák
-- Napi rituálék kialakítása, sikerek-kudarcok
-- 30 perces arcjóga (Polgár Enikő) - nem teszi tönkre a sminket! 💄
-- Szőnyeges terem, interaktív beszélgetések
+### 08:15 - 08:45
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Kinizsi terem - Relax | Gálik Klára | Napindító meditáció - Reggeli ráhangolódás és meditáció |
 
-### NETWORKING terem 🤝
-- Premium és VIP jeggyel érhető el
-- Kapcsolatépítés hasonló gondolkodású nőkkel
+### 09:00 - 09:15
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Görgey, Hadik, Aggházy termek | Szervezők | Megnyitó - Hivatalos megnyitó az összes fő teremben |
 
-### MEET UP terem
-- Közönségtalálkozó műsorok
-- Botkai Szilvi, Mihalik Gyöngyvér
+### 09:15 - 10:00
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Görgey terem (500 fő) | Máté Krisztina | Előadás - Nyitó gondolatok (09:15-09:30) |
+| Hadik terem (250 fő) | Zolnay Judit | Célkitűzés, célok mérése, ambíciózus gondolkodás |
+| Aggházy terem (250 fő) | Gál Kristóf | Üzleti stratégia, skálázódás - kisvállalkozói szemmel |
+| Hősök terem - MeetUp | Kassai Eszter | Flydentity találkozó - Közösségi találkozó |
+| Kinizsi terem - Relax | Yurkov és Balázs | Lelkizős beszélgetés - Könnyed, mégis mély beszélgetés |
 
-### Before Party 🎉
-- Rendezvény előtti este
-- Zene, workshopok, networking
-- Egyedül is tökéletes, már ott barátkozni lehet!
+### 10:00 - 10:45
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Görgey terem (500 fő) | Weiser (Egyeztetés alatt) | TBA (10:00-10:15) |
+| Hadik terem (250 fő) | Forray Nikolett | Pénzügyi stabilitás és nyereségnövelés |
+| Aggházy terem (250 fő) | Dr. Bús Enikő | A márkád esszenciája egy mondatban - A tökéletes bemutatkozás technikája |
+| Hősök terem - MeetUp | Cserháti-Herold Janka + Aisha | Anyaság téma - Beszélgetés az anyaság és vállalkozás egyensúlyáról |
+| Kinizsi terem - Relax | Kiss-Kocsis Ágnes | Stresszoldó mini technikák vállalkozóknak (10:15-10:30) |
 
-## 🌟 Előadók (akikkel biztosan találkozhatsz)
-- **Oroszlán Szonja** - Színművész
-- **Kende-Hoffher Krisztina** - TMC GROUP alapító, CEO
-- **Al Ghaoui Hesna** - Író, újságíró, reziliencia tréner
-- **Dr. Zolnay Judit** - Vezetési és üzleti tanácsadó, mentor, coach
-- **Zsolt Orsolya** - Multi Alarm Zrt. vezérigazgatója
-- **Cserháti-Herold Janka** - Termékenységtudat-szakértő
-- **Forray Nikolett** - Balloon World Hungary tulajdonosa
-- **Jilly Krisztina** - Marketing specialista, Social and More CEO
-- **Fenyő Csilla** - Online marketing szakértő, The Content Queen
-- **Beros Loretta** - Pszichológus, közgazdász
-- **Dr. Bús Enikő** - Szövegíró, Szövegelő Klub alapítója
-- **Gyenes Lídia** - Újságíró, AI kutató, Amazing AI
-- **Egerszegi Krisztián** - MiniCRM exitált tulajdonos, Cégépítők alapítója
-- **Czopkó Nóra** - A nap házigazdája, pszichológus
-- **Mihalik Gyöngyvér** - A Női Vállalkozók Napja megálmodója
-- És még sokan mások! A program folyamatosan frissül.
+### 11:15 - 12:00
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Görgey terem (500 fő) | Samsung / OTP (Szponzor) | Kerekasztal beszélgetés (11:15-11:30) |
+| Hadik terem (250 fő) | Szabados Ági | Hobbiból lett szenvedély vállalkozás |
+| Aggházy terem (250 fő) | SAPI (Szponzor) | Szponzori előadás (11:15-11:45) |
+| Hősök terem - MeetUp | Csont Attila | ISVL találkozó |
+| Kinizsi terem - Relax | Polgár Enikő | Arcjóga - Frissítő arcjóga gyakorlatok |
+
+### 12:00 - 12:45
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Görgey terem (500 fő) | Al Ghaoui Hesna | Félj bátran! - A félelem kezelése és hajtóerővé alakítása (12:00-12:30) |
+| Hadik terem (250 fő) | Kifli HR (Szponzor) | HR megoldások (12:00-12:30) |
+| Aggházy terem (250 fő) | Mihalik Gyöngyvér | Projekt tervezés, megvalósítás, káoszból struktúra (12:00-12:30) |
+| Kinizsi terem - Relax | - | Apró női rituálék a mindennapokra (12:15-12:45) |
+
+### 12:45 - 13:45 - EBÉDSZÜNET
+Szünet az előadásokban (kivéve Relax terem)
+
+### 13:00 - 14:00 (Relax terem programok ebédszünet alatt)
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Kinizsi terem - Relax | Karacs Ildikó | Hangfürdő - Relaxáció hangtálakkal (13:00-13:30) |
+| Kinizsi terem - Relax | Szkálosi Rita | Csikung - Mozgásmeditáció (13:30-14:00) |
+
+### 13:45 - 15:00
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Görgey terem (500 fő) | Szervezők | Díjátadó - Ünnepélyes díjátadó ceremónia (13:45-14:15) |
+| Görgey terem (500 fő) | Jilly Krisztina | TikTok stratégiák - Hogyan használd a TikTok-ot üzleti célokra (14:15-14:45) |
+| Görgey terem (500 fő) | Halmi Bence & Halmi Bajnok | AI + Short form videók - A bevételnövekedés leggyorsabb útja 2026-ban (14:45-15:00) |
+| Hadik terem (250 fő) | Egerszegi Krisztián + Zsolt Orsolya | Cégépítés emberi alapokon - Egy 10 milliárdos cég élén szerzett tapasztalatok (14:15-15:00) |
+| Aggházy terem (250 fő) | Mészáros Robi | Könyvírás - Tippek és tapasztalatok könyvíráshoz (14:15-15:00) |
+| Hősök terem - MeetUp | Szabados Ági | Közönségtalálkozó + Workshop (14:15-15:00) |
+| Kinizsi terem - Relax | Kalamár Hajnalka & Dorogi-Kabarcz Rebeka | Őszinte kör: sikerek és sebek (14:15-15:00) |
+
+### 15:00 - 15:30
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Görgey terem (500 fő) | Régi Norbi (?) | AI Automatizálás a vállalkozásban (15:00-15:15) |
+| Görgey terem (500 fő) | Gyenes Lídia | AI Trendek - Aktuális mesterséges intelligencia trendek (15:15-15:30) |
+| Aggházy terem (250 fő) | Pszichosztori (Loretta) | Határhúzás, toxikus környezet legyűrése |
+| Hősök terem - MeetUp | Szabó Ági | Virtuális asszisztensek? - Hogyan segíthet egy VA a vállalkozásodban |
+
+### 15:30 - 16:15
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Hadik terem (250 fő) | Bíró Orsolya | Csapatépítés és delegálás - A osztályú munkatársak megtalálása és vezetése |
+| Aggházy terem (250 fő) | Bíró Nóri | A sales nem ciki - Hogyan add el magad és a szolgáltatásod természetesen? |
+| Kinizsi terem - Relax | Cserháti-Herold Janka + Aisha | Anyaság téma (folytatás) |
+
+### 16:30 - 17:00
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Görgey terem (500 fő) | Kende-Hoffher Krisztina (KHK) | Időbeosztás hatékonyan vállalkozóként is - Time management tippek |
+| Hadik terem (250 fő) | Szervezők | Nyeremény sorsolás |
+| Aggházy terem (250 fő) | Andrássy Bettina | Pszichológus, családállító - Családállítás témakör |
+
+### 17:15 - 17:45 (ZÁRÓ BLOKK)
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Görgey terem (500 fő) | Oroszlán Szonja | Bátorság az újrakezdésre - Inspirációs előadás |
+| Hadik terem (250 fő) | Fuller Bianka | Az a hang, ami visszatart - Hogyan győzd le a belső önbizalomgyilkost? |
+| Aggházy terem (250 fő) | Fenyő Csilla | Miért nem hoz új ügyfeleket az Instagramod? - 3 poszttípus, ami hiányzik a stratégiádból |
+
+## 🌟 Főbb előadók listája
+- **Oroszlán Szonja** - Színművész (17:15, Görgey terem)
+- **Al Ghaoui Hesna** - Író, újságíró, reziliencia tréner (12:00, Görgey terem)
+- **Kende-Hoffher Krisztina** - TMC GROUP alapító, CEO (16:30, Görgey terem)
+- **Jilly Krisztina** - Marketing specialista, TikTok (14:15, Görgey terem)
+- **Fenyő Csilla** - Online marketing, Instagram (17:15, Aggházy terem)
+- **Dr. Zolnay Judit** - Célkitűzés, célok mérése (09:15, Hadik terem)
+- **Forray Nikolett** - Pénzügyi stabilitás (10:00, Hadik terem)
+- **Egerszegi Krisztián + Zsolt Orsolya** - Cégépítés (14:15, Hadik terem)
+- **Gyenes Lídia** - AI Trendek (15:15, Görgey terem)
+- **Dr. Bús Enikő** - Szövegírás, márkaépítés (10:00, Aggházy terem)
+- **Mihalik Gyöngyvér** - Projekt tervezés (12:00, Aggházy terem)
+- **Polgár Enikő** - Arcjóga (11:15, Kinizsi terem)
+- **Gálik Klára** - Napindító meditáció (08:15, Kinizsi terem)
 
 ## 🆕 Újdonságok 2026-ban
 
@@ -479,6 +545,29 @@ Ha a felhasználó egy adott szolgáltatásról vagy termékről érdeklődik (p
 
 Példa válasz kiállító kérdésre:
 "Igen, van könyvelő a kiállítók között! 📊 A **BALANCE Adó- és Ügyviteli Szolgáltató Kft.** a **B29-es standnál** található, weboldaluk: balancekft.hu. Könyvelési szolgáltatásokat nyújtanak KKV-knak. Szeretnél még más típusú szolgáltatóról is hallani? 💜"
+
+## 📅 PROGRAM KERESÉSE - KRITIKUS SZABÁLYOK
+
+### Időpont keresés
+Ha a felhasználó egy adott időpontról kérdez (pl. "Mi lesz délben?", "Mi van 10-kor?", "Mit nézhetek 14 óra után?"):
+1. Keresd meg az adott idősávba eső programokat a tudásbázisból
+2. **Sorold fel MINDEN releváns programot termenként** - pl. "12:00-kor a Görgey teremben..., a Hadik teremben..., az Aggházy teremben..."
+3. **Mindig említsd meg a termet**, hogy a látogató tudja hova menjen!
+
+### Előadó/Téma keresés
+Ha a felhasználó egy előadót (pl. "Mikor beszél Hesna?", "Oroszlán Szonja előadása") vagy témát (pl. "Instagram előadás", "AI téma", "TikTok") keres:
+1. Keress a program listában az előadó neve, előadás címe vagy leírása alapján
+2. Add meg: **előadó neve, előadás címe, pontos időpont és terem**
+3. Ha több találat is van, sorold fel mindet
+
+### Ütközések jelzése
+Ha a felhasználó két olyan előadás iránt érdeklődik, amelyek **egy időben vannak különböző termekben**, MINDIG hívd fel a figyelmét:
+"⚠️ Figyelem: Ezek az előadások egy időben zajlanak! A [X előadás] a [terem1]-ben, míg a [Y előadás] a [terem2]-ben lesz [időpont]-kor. Válassz egyet, vagy ha Premium/VIP jegyed van, a felvételekből később megnézheted a másikat!"
+
+### Példa válaszok:
+**Időpont kérdésre:** "12:00-kor izgalmas választékod van! 🎉 A **Görgey teremben** Al Ghaoui Hesna tart előadást 'Félj bátran!' címmel, a **Hadik teremben** a Kifli HR HR megoldásokról beszél, az **Aggházy teremben** pedig Mihalik Gyöngyvér a projekt tervezésről oszt meg praktikákat. Melyik téma érdekel leginkább?"
+
+**Előadó keresésre:** "Hesna (Al Ghaoui Hesna) **12:00-12:30** között ad elő a **Görgey teremben** 'Félj bátran!' címmel - arról fog beszélni, hogyan alakítsd a félelmet hajtóerővé! ✨ Szeretnél tudni más előadókról is?"
 
 ## Fontos szabályok
 - Válaszolj magyarul, max 2-4 mondatban (hacsak nem kérnek részletesebb infót)
