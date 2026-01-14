@@ -257,8 +257,50 @@ const ragKnowledgeBase = `
 - Dokumentumfilm jellegű interjúk vetítése egész nap
 
 ## 🏪 Kiállítói tér (közel 80 kiállító!)
-**Jelenlegi kiállítók:**
-ANKA optika, Hormonmentes-Ladea, Secret Soul Coaching, ANITATOTH Organic, Joy of You, Brandbirds, Marina Miracle, J. Rose Clinic, Gyémántlélek Központ, Hotel Európa Fit Hévíz, Z-Press Kiadó, Santai Home&Living, NaturCleaning, DotRoll, Awaken Accounting, Rewa, PPD Online, doTERRA, Compass Med, Dentist for you, Bankmonitor Partner, Balance, Gál Kristóf, Rossz Anyák Tábora, Pilates Palace, Brandlegends Agency, The Beauty, Me-time massage, BB Web, Szövegelő Klub, Folyamatmodell.hu
+
+### Részletes kiállítói lista (Stand számmal):
+
+| Stand | Kiállító | Tevékenység | Weboldal |
+|-------|----------|-------------|----------|
+| S1, S2, S5, S6, B8 | **Gyémántlélek Kft. (Tógyer Andrea)** | Oktatás, Fitline, doTERRA, Fohow terápia, egészségmagatartás fejlesztés | gyemantlelek.com |
+| S3 | **Pilates Palace (LETICIARENT Kft.)** | Pilates stúdió és mozgásforma | - |
+| 1 | **Marina Miracle (Beszteri-Bányai Barbara)** | MarinaMiracle termékcsalád, kozmetika | marinamiracle.hu |
+| 2 | **Awaken Accounting Balance Kft. (Kállai Orsolya)** | Holisztikus orvoslás, családállítás | - |
+| 3 | **Naturcleaning (Cudy Future Kft.)** | Természetes alapú tisztítószerek | naturcleaning.hu |
+| 4 | **Chogan (Monzinger Zsófia)** | Parfümök, kozmetikai és sminktermékek, étrendkiegészítők | jovodillata.com |
+| 5 | **Joy Of You Kft. (Forgó Krisztina)** | doTERRA és Aromatouch masszázs | facebook.com/essentialsforjoy |
+| 9 | **Dentist For You Kft.** | Fogorvosi rendelő | dentistforyou.hu |
+| 11 | **J. Rose Clinic (Rózsa Judit)** | BEMER terápia, holisztikus egészség, tanácsadás | jrose.hu |
+| 13 | **Operidom Kft.** | Ingatlan, hitelszakértés, jogi tanácsadás | ridom.hu |
+| 14 | **InvenQ Insight Innovációs Nonprofit Kft. (Bíró Orsolya)** | Szervezetfejlesztés, coaching, tréningek, tanácsadás | folyamatmodell.hu |
+| 17 | **Madej Éva** | Ékszerek készítése | - |
+| 18 | **Anita Toth Products Kft.** | Kozmetikumok, parfümolajok | anitatoth.com |
+| 19 | **LaDea / Hormonmentes (Home Kreatíva Kft.)** | Szexwellness oldal | ladea.hu |
+| 20 | **DotRoll Kft.** | Domain regisztráció, tárhely szolgáltatás, weboldal készítés KKV-knak | dotroll.com |
+| 21 | **The Beauty (Tárnoki Edina)** | Natúrkozmetikumok, workshopok | the-beauty.hu |
+| 24 | **Soulwave Business Kft. (Perneczky Andrea)** | Szervezetfejlesztés, üzleti növekedés stratégia és tudatosság alapokon | andreaperneczky.com |
+| 28 | **Szövegelő Klub (BB Kreatív Kft.)** | Szövegírás és marketing oktatás, weboldal és webáruház készítés | szovegeloklub.hu |
+| B29 | **BALANCE Adó- és Ügyviteli Szolgáltató Kft.** | Könyvelőiroda KKV-knak | balancekft.hu |
+| 30 | **Kassai Eszter (Marketinginnovator S.r.o.)** | Coaching | kassaieszter.hu |
+| 31 | **Gál Kristóf (LAKSHMI NAMAHA Zrt.)** | Vállalkozó fejlesztés, marketing | klikkmarketing.hu |
+| B46 | **PPD Online Kft. (Polák Péter)** | Webfejlesztés, online marketing, Integralshop (ERP rendszer) | ppdonline.hu |
+| 47 | **Rewa / Benke Flóra** | Vegán, fenntartható, lebomló hátizsákok. Weboldal és webshop építés (FlorartWebdesign) | rewa.hu |
+| 50 | **Rossz Anyák tábora (Laczkó Kevin E.V.)** | Tematikus felnőtt női táborok | rosszanyaktabora.hu |
+| 51 | **Z-PRESS Kiadó Kft.** | Könyvkiadó, önfejlesztés | z-press.hu |
+| 101 | **BrandsLegend (Brand Legends Kft.)** | AI és TikTok szakértők, edukáció | - |
+| 103 | **ANKA Optika (MyT Group Kft.)** | Szemészet, optika | ankaoptika.hu |
+
+### Kiállítók kategória szerint:
+- **Egészség & Wellness:** Gyémántlélek, Pilates Palace, J. Rose Clinic, Dentist For You, Joy Of You (doTERRA)
+- **Kozmetika & Szépség:** Marina Miracle, Anita Toth Products, Chogan, The Beauty, LaDea
+- **Üzleti szolgáltatások:** DotRoll, PPD Online, Szövegelő Klub, Balance könyvelőiroda, Gál Kristóf, Soulwave Business, InvenQ Insight
+- **Coaching & Fejlesztés:** Kassai Eszter, BrandsLegend
+- **Életmód:** Rossz Anyák tábora, Rewa (fenntartható táskák), Madej Éva (ékszerek)
+- **Kiadó:** Z-Press Kiadó
+- **Ingatlan & Pénzügyek:** Operidom, Awaken Accounting
+- **Optika:** ANKA Optika
+
+**Megjegyzés:** Tógyer Andrea (Gyémántlélek) 5 standot foglalt - ő 2025-ben annyi partnert talált az NVN-en, hogy idén ennyire bővített!
 
 ## 🚌 Megközelítés - Tömegközlekedést ajánljuk!
 **A Bálna Budapest a Petőfi-híd és Szabadság-híd között:**
