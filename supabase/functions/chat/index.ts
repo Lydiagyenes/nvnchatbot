@@ -1,5 +1,6 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+import { z } from "https://deno.land/x/zod@v3.22.4/mod.ts";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
@@ -333,11 +334,45 @@ serve(async (req) => {
   }
 
   try {
-    const { messages, sessionId } = await req.json();
+    // Input validation schema
+    const MessageSchema = z.object({
+      role: z.enum(["user", "assistant"]),
+      content: z.string().min(1, "Üzenet nem lehet üres").max(4000, "Üzenet túl hosszú"),
+    });
+
+    const ChatRequestSchema = z.object({
+      messages: z.array(MessageSchema).min(1, "Legalább egy üzenet szükséges").max(50, "Túl sok üzenet"),
+      sessionId: z.string().uuid().optional(),
+    });
+
+    // Parse and validate input
+    let validatedData;
+    try {
+      const rawData = await req.json();
+      validatedData = ChatRequestSchema.parse(rawData);
+    } catch (validationError) {
+      console.error("Validation error:", validationError);
+      return new Response(
+        JSON.stringify({ error: "Érvénytelen kérés formátum. Kérlek próbáld újra." }),
+        {
+          status: 400,
+          headers: { ...corsHeaders, "Content-Type": "application/json" },
+        }
+      );
+    }
+
+    const { messages, sessionId } = validatedData;
     const LOVABLE_API_KEY = Deno.env.get("LOVABLE_API_KEY");
     
     if (!LOVABLE_API_KEY) {
-      throw new Error("LOVABLE_API_KEY is not configured");
+      console.error("LOVABLE_API_KEY is not configured");
+      return new Response(
+        JSON.stringify({ error: "Szerver konfigurációs hiba. Kérlek próbáld újra később." }),
+        {
+          status: 500,
+          headers: { ...corsHeaders, "Content-Type": "application/json" },
+        }
+      );
     }
 
     // Generate session ID if not provided
@@ -508,7 +543,7 @@ Ha a felhasználó olyan kérdést tesz fel, amire nincs válasz a tudásbázisb
   } catch (error) {
     console.error("Chat function error:", error);
     return new Response(
-      JSON.stringify({ error: error instanceof Error ? error.message : "Ismeretlen hiba történt" }),
+      JSON.stringify({ error: "Hiba történt a kérés feldolgozása során. Kérlek próbáld újra később." }),
       {
         status: 500,
         headers: { ...corsHeaders, "Content-Type": "application/json" },
