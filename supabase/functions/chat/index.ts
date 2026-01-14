@@ -198,86 +198,133 @@ const ragKnowledgeBase = `
 ### 09:00 - 09:15
 | Terem | Előadó | Előadás címe |
 |-------|--------|--------------|
-| Görgey, Hadik, Aggházy termek | Szervezők | Megnyitó - Hivatalos megnyitó az összes fő teremben |
+| Minden terem | Szervezők | Megnyitó - Hivatalos megnyitó (nem kommunikált) |
 
 ### 09:15 - 10:00
 | Terem | Előadó | Előadás címe |
 |-------|--------|--------------|
-| Görgey terem (500 fő) | Máté Krisztina | Előadás - Nyitó gondolatok (09:15-09:30) |
+| Görgey terem (500 fő) | Máté Krisztina | Nyitó gondolatok - Bevezető előadás, célkitűzések |
 | Hadik terem (250 fő) | Zolnay Judit | Célkitűzés, célok mérése, ambíciózus gondolkodás |
 | Aggházy terem (250 fő) | Gál Kristóf | Üzleti stratégia, skálázódás - kisvállalkozói szemmel |
-| Hősök terem - MeetUp | Kassai Eszter | Flydentity találkozó - Közösségi találkozó |
-| Kinizsi terem - Relax | Yurkov és Balázs | Lelkizős beszélgetés - Könnyed, mégis mély beszélgetés |
 
-### 10:00 - 10:45
+### 09:15 - 10:30
 | Terem | Előadó | Előadás címe |
 |-------|--------|--------------|
-| Görgey terem (500 fő) | Weiser (Egyeztetés alatt) | TBA (10:00-10:15) |
-| Hadik terem (250 fő) | Forray Nikolett | Pénzügyi stabilitás és nyereségnövelés |
+| Hősök terem - MeetUp | Kassai Eszter | Flydentity találkozó - Közösségi találkozó |
+
+### 09:15 - 09:45
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Kinizsi terem - Relax | Yurkov és Balázs | Lelkizős beszélgetés - Könnyed, mégis mély beszélgetés |
+
+### 10:00 - 10:30
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Görgey terem (500 fő) | Weiser | Előadás (TBA) - Egyeztetés alatt |
+| Hadik terem (250 fő) | Forray Nikolett | Pénzügyi stabilitás és nyereségnövelés - Pénzügyi tervezés vállalkozóknak |
 | Aggházy terem (250 fő) | Dr. Bús Enikő | A márkád esszenciája egy mondatban - A tökéletes bemutatkozás technikája |
-| Hősök terem - MeetUp | Cserháti-Herold Janka + Aisha | Anyaság téma - Beszélgetés az anyaság és vállalkozás egyensúlyáról |
-| Kinizsi terem - Relax | Kiss-Kocsis Ágnes | Stresszoldó mini technikák vállalkozóknak (10:15-10:30) |
+| Kinizsi terem - Relax | Cserháti-Herold Janka + Aisha | Anyaság téma - Beszélgetés az anyaság és vállalkozás egyensúlyáról |
 
 ### 11:15 - 12:00
 | Terem | Előadó | Előadás címe |
 |-------|--------|--------------|
-| Görgey terem (500 fő) | Samsung / OTP (Szponzor) | Kerekasztal beszélgetés (11:15-11:30) |
-| Hadik terem (250 fő) | Szabados Ági | Hobbiból lett szenvedély vállalkozás |
-| Aggházy terem (250 fő) | SAPI (Szponzor) | Szponzori előadás (11:15-11:45) |
-| Hősök terem - MeetUp | Csont Attila | ISVL találkozó |
+| Görgey terem (500 fő) | Samsung / OTP (Szponzor) | Kerekasztal beszélgetés - Technológiai és pénzügyi megoldások |
+| Hadik terem (250 fő) | Szabados Ági | Hobbiból lett szenvedély vállalkozás - Út a hobbitól a sikeres vállalkozásig |
+
+### 11:15 - 12:45
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Hősök terem - MeetUp | Csont Attila | ISVL találkozó - NE MOZGASSUK A GYEREKEK MIATT - Közösségi program |
+
+### 11:15 - 11:45
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
 | Kinizsi terem - Relax | Polgár Enikő | Arcjóga - Frissítő arcjóga gyakorlatok |
 
 ### 12:00 - 12:45
 | Terem | Előadó | Előadás címe |
 |-------|--------|--------------|
-| Görgey terem (500 fő) | Al Ghaoui Hesna | Félj bátran! - A félelem kezelése és hajtóerővé alakítása (12:00-12:30) |
-| Hadik terem (250 fő) | Kifli HR (Szponzor) | HR megoldások (12:00-12:30) |
-| Aggházy terem (250 fő) | Mihalik Gyöngyvér | Projekt tervezés, megvalósítás, káoszból struktúra (12:00-12:30) |
-| Kinizsi terem - Relax | - | Apró női rituálék a mindennapokra (12:15-12:45) |
+| Görgey terem (500 fő) | Al Ghaoui Hesna | Félj bátran! - A félelem kezelése és hajtóerővé alakítása |
+| Hadik terem (250 fő) | Kifli HR (Szponzor) | HR megoldások - Szponzori előadás |
+| Aggházy terem (250 fő) | Mihalik Gyöngyvér | Projekt tervezés, megvalósítás, káoszból struktúra - Hatékonyság és szervezettség |
 
-### 12:45 - 13:45 - EBÉDSZÜNET
-Szünet az előadásokban (kivéve Relax terem)
-
-### 13:00 - 14:00 (Relax terem programok ebédszünet alatt)
+### 12:15 - 12:45
 | Terem | Előadó | Előadás címe |
 |-------|--------|--------------|
-| Kinizsi terem - Relax | Karacs Ildikó | Hangfürdő - Relaxáció hangtálakkal (13:00-13:30) |
-| Kinizsi terem - Relax | Szkálosi Rita | Csikung - Mozgásmeditáció (13:30-14:00) |
+| Kinizsi terem - Relax | - | Apró női rituálék a mindennapokra - Mitől lesz több energia és béke a napban? |
 
-### 13:45 - 15:00
+### 13:00 - 13:30
 | Terem | Előadó | Előadás címe |
 |-------|--------|--------------|
-| Görgey terem (500 fő) | Szervezők | Díjátadó - Ünnepélyes díjátadó ceremónia (13:45-14:15) |
-| Görgey terem (500 fő) | Jilly Krisztina | TikTok stratégiák - Hogyan használd a TikTok-ot üzleti célokra (14:15-14:45) |
-| Görgey terem (500 fő) | Halmi Bence & Halmi Bajnok | AI + Short form videók - A bevételnövekedés leggyorsabb útja 2026-ban (14:45-15:00) |
-| Hadik terem (250 fő) | Egerszegi Krisztián + Zsolt Orsolya | Cégépítés emberi alapokon - Egy 10 milliárdos cég élén szerzett tapasztalatok (14:15-15:00) |
-| Aggházy terem (250 fő) | Mészáros Robi | Könyvírás - Tippek és tapasztalatok könyvíráshoz (14:15-15:00) |
-| Hősök terem - MeetUp | Szabados Ági | Közönségtalálkozó + Workshop (14:15-15:00) |
-| Kinizsi terem - Relax | Kalamár Hajnalka & Dorogi-Kabarcz Rebeka | Őszinte kör: sikerek és sebek (14:15-15:00) |
+| Kinizsi terem - Relax | Karacs Ildikó | Hangfürdő - Relaxáció hangtálakkal |
 
-### 15:00 - 15:30
+### 13:30 - 14:00
 | Terem | Előadó | Előadás címe |
 |-------|--------|--------------|
-| Görgey terem (500 fő) | Régi Norbi (?) | AI Automatizálás a vállalkozásban (15:00-15:15) |
-| Görgey terem (500 fő) | Gyenes Lídia | AI Trendek - Aktuális mesterséges intelligencia trendek (15:15-15:30) |
-| Aggházy terem (250 fő) | Pszichosztori (Loretta) | Határhúzás, toxikus környezet legyűrése |
+| Kinizsi terem - Relax | Szkálosi Rita | Csikung - Mozgásmeditáció |
+
+### 13:45 - 14:15
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Görgey terem (500 fő) | Szervezők | Díjátadó - Ünnepélyes díjátadó ceremónia |
+
+### 14:15 - 14:45
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Görgey terem (500 fő) | Jilly Krisztina | TikTok stratégiák - Hogyan használd a TikTok-ot üzleti célokra |
+| Hadik terem (250 fő) | Egerszegi Krisztián + Zsolt Orsolya | Cégépítés emberi alapokon - Egy 10 milliárdos cég élén szerzett tapasztalatok |
+| Aggházy terem (250 fő) | Mészáros Robi | Könyvírás - Tippek és tapasztalatok könyvíráshoz |
+
+### 14:15 - 15:00
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Hősök terem - MeetUp | Szabados Ági | Közönségtalálkozó + Workshop - Interaktív találkozó |
+
+### 14:45 - 15:15
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Görgey terem (500 fő) | Halmi Bence és Halmi Bajnok | AI + Short form videók - A bevételnövekedés leggyorsabb útja 2026-ban |
+| Aggházy terem (250 fő) | Pszichosztori (Loretta) | Határhúzás, toxikus környezet legyűrése - Pszichológiai tanácsok vállalkozóknak |
+
+### 15:00 - 15:45
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
 | Hősök terem - MeetUp | Szabó Ági | Virtuális asszisztensek? - Hogyan segíthet egy VA a vállalkozásodban |
+
+### 15:15 - 15:45
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Görgey terem (500 fő) | Gyenes Lídia | AI Trendek - Aktuális mesterséges intelligencia trendek, jövőbeli képességek |
+| Hadik terem (250 fő) | Bíró Orsolya | Csapatépítés és delegálás - A osztályú munkatársak megtalálása és vezetése |
+| Aggházy terem (250 fő) | Bíró Nóri | A sales nem ciki - Hogyan add el magad és a szolgáltatásod természetesen? |
+| Kinizsi terem - Relax | Kalamár Hajnalka & Dorogi-Kabarcz Rebeka | Őszinte kör: sikerek és sebek - Biztonságos tér megosztásokhoz |
 
 ### 15:30 - 16:15
 | Terem | Előadó | Előadás címe |
 |-------|--------|--------------|
-| Hadik terem (250 fő) | Bíró Orsolya | Csapatépítés és delegálás - A osztályú munkatársak megtalálása és vezetése |
-| Aggházy terem (250 fő) | Bíró Nóri | A sales nem ciki - Hogyan add el magad és a szolgáltatásod természetesen? |
-| Kinizsi terem - Relax | Cserháti-Herold Janka + Aisha | Anyaság téma (folytatás) |
+| Kinizsi terem - Relax | Cserháti-Herold Janka + Aisha | Anyaság téma - Beszélgetés (folytatás) |
 
-### 16:30 - 17:00
+### 16:30 - 17:15
 | Terem | Előadó | Előadás címe |
 |-------|--------|--------------|
 | Görgey terem (500 fő) | Kende-Hoffher Krisztina (KHK) | Időbeosztás hatékonyan vállalkozóként is - Time management tippek |
-| Hadik terem (250 fő) | Szervezők | Nyeremény sorsolás |
-| Aggházy terem (250 fő) | Andrássy Bettina | Pszichológus, családállító - Családállítás témakör |
 
-### 17:15 - 17:45 (ZÁRÓ BLOKK)
+### 16:30 - 18:00
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Hősök terem - MeetUp | Andrássy Bettina | Pszichológus, családállító - még kérdőjeles program |
+
+### 16:30 - 16:45
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Hadik terem | Szervezők | Nyeremény sorsolás - Az esemény zárása és sorsolás |
+
+### 16:45 - 17:15
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Hadik terem | Szervezők | Jelentkezőknek fenntartott előadás - Kiválasztásos alapú program |
+
+### 17:15 - 18:00 (ZÁRÓ BLOKK)
 | Terem | Előadó | Előadás címe |
 |-------|--------|--------------|
 | Görgey terem (500 fő) | Oroszlán Szonja | Bátorság az újrakezdésre - Inspirációs előadás |
