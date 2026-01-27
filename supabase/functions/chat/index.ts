@@ -587,6 +587,11 @@ const ragKnowledgeBase = `
 - VIP jeggyel: catering egész nap!
 - A Bálnában éttermek is vannak (à la carte, hosszabb kiszolgálás)
 
+## 🐾 Kisállatok
+- **A Bálna Budapest állatbarát helyszín**, de az esemény volumene és az embertömeg miatt **NEM JAVASOLJUK, hogy kiskedvencekkel érkezzenek** a látogatók
+- A rendezvényen várhatóan 2000+ ember lesz, ez stresszes lehet az állatoknak
+- Kérjük, hagyjátok otthon a szőrös családtagokat! 💜
+
 ## 🎮 Útlevél játék
 - 10 értékes ajándékot sorsolnak ki
 - Minden kiállítóhoz eljutva gyűjtsd a pecséteket!
