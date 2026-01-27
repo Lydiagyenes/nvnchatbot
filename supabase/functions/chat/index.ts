@@ -41,20 +41,19 @@ const getPricingInfo = () => {
   const now = getCurrentDate();
   const year = now.getFullYear();
   
-  // Árperiódusok 2026-ra
+  // Árperiódusok 2026-ra (frissítve a weboldalról 2026.01.27-én)
   const periods = [
     { deadline: new Date(2025, 10, 23), discount: "52%", label: "november 23-ig" },
     { deadline: new Date(2025, 11, 11), discount: "48%", label: "december 11-ig" },
     { deadline: new Date(2026, 0, 15), discount: "43%", label: "január 15-ig" },
-    { deadline: new Date(2026, 1, 10), discount: "35%", label: "február 10-ig" },
-    { deadline: new Date(2026, 2, 5), discount: "25%", label: "március 5-ig" },
+    { deadline: new Date(2026, 1, 17), discount: "34%", label: "február 17-ig" },
     { deadline: new Date(2026, 2, 17), discount: "0%", label: "teljes ár" },
   ];
 
-  // Aktuális árak (január 15-ig érvényes kedvezménnyel - 43%)
+  // Aktuális árak (február 17-ig érvényes kedvezménnyel - 34% - frissítve weboldalról)
   const currentPrices = {
-    basic: { original: "49.900 Ft + áfa", discounted: "29.000 Ft + áfa", pairPerPerson: "26.000 Ft + áfa/fő" },
-    premium: { original: "59.900 Ft + áfa", discounted: "34.000 Ft + áfa", pairPerPerson: "27.200 Ft + áfa/fő" },
+    basic: { original: "49.900 Ft + áfa", discounted: "34.000 Ft + áfa", pairPerPerson: "27.200 Ft + áfa/fő" },
+    premium: { original: "59.900 Ft + áfa", discounted: "39.000 Ft + áfa", pairPerPerson: "31.200 Ft + áfa/fő" },
     vip: { original: "99.900 Ft + áfa", discounted: "84.000 Ft + áfa", pairPerPerson: "67.200 Ft + áfa/fő" },
     shownotes: "9.900 Ft + áfa (VIP jegyben benne van!)"
   };
@@ -82,9 +81,8 @@ const ragKnowledgeBase = `
   - November 23-ig: 52% kedvezmény
   - December 11-ig: 48% kedvezmény  
   - Január 15-ig: 43% kedvezmény
-  - Február 10-ig: 35% kedvezmény
-  - Március 5-ig: 25% kedvezmény
-  - Március 5-től: teljes ár
+  - Február 17-ig: 34% kedvezmény
+  - Február 17-től: teljes ár
   - **Március 17. (kedd): UTOLSÓ NAP a vásárlásra!**
 
 ## 🎯 Alapinformációk
@@ -123,8 +121,8 @@ const ragKnowledgeBase = `
 
 ### BASIC jegy - "Terepfelmérős"
 - **Eredeti ár:** 49.900 Ft + áfa
-- **Aktuális kedvezményes ár:** 29.000 Ft + áfa (43% kedvezmény január 15-ig!)
-- **Páros jegy:** 26.000 Ft + áfa/fő (20% extra kedvezmény!)
+- **Aktuális kedvezményes ár:** 34.000 Ft + áfa (34% kedvezmény február 17-ig!)
+- **Páros jegy:** 27.200 Ft + áfa/fő (20% extra kedvezmény!)
 - **Mit tartalmaz:**
   - Szabadon választhatsz az összes előadás/workshop közül
   - Részt vehetsz az "útleveles" nyereményjátékban
@@ -134,11 +132,11 @@ const ragKnowledgeBase = `
 
 ### PREMIUM jegy - "Legnépszerűbb" ⭐
 - **Eredeti ár:** 59.900 Ft + áfa
-- **Aktuális kedvezményes ár:** 34.000 Ft + áfa (43% kedvezmény január 15-ig!)
-- **Páros jegy:** 27.200 Ft + áfa/fő (20% extra kedvezmény!)
+- **Aktuális kedvezményes ár:** 39.000 Ft + áfa (34% kedvezmény február 17-ig!)
+- **Páros jegy:** 31.200 Ft + áfa/fő (20% extra kedvezmény!)
 - **Mit tartalmaz (minden, ami a BASIC-ben, plusz):**
   - Részvétel a kapcsolatépítő programokon
-  - **Hozzáférés az előadások felvételeihez 2 évig!**
+  - **Hozzáférés az előadások felvételeihez a rendezvény után!**
   - Privát online konzultációs lehetőség szakértőinkkel
 
 ### VIP jegy - "Legjobb ár-érték" 👑
