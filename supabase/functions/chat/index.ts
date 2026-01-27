@@ -411,6 +411,7 @@ const ragKnowledgeBase = `
 - **Titulus:** Projektmenedzsment szakértő
 - **Előadás:** Káoszból struktúra
 - **Téma:** Projekttervezés és stratégiák a fókuszáltságért. Hogyan teremtsünk rendet a vállalkozói káoszban.
+- **Kutyája:** Archie 🐕
 
 ### Jilly Krisztina
 - **Titulus:** Marketing specialista
