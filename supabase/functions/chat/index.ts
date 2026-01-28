@@ -625,25 +625,65 @@ A Bálna Budapest környékén a parkolási lehetőségek korlátozottak, ezért
 - Érdeklődj később a konkrétumokért!
 
 ### 🚙 Telekocsi (Oszkár együttműködés)
-Szeretnénk, ha már az ideút is a kapcsolatépítésről szólna!
+Szeretnénk, ha már az ideút is a kapcsolatépítésről szólna! Az Oszkár Telekocsival közös megoldást kínálunk:
+
+**Egyedi Landing Oldal:**
+- Az eseménynek saját aloldala lesz az Oszkáron
+- Kifejezetten a rendezvényre tartó sofőröket és utasokat találjátok meg
+
+**"Női sofőr" opció:** 🙋‍♀️
+- A keresőben és a hirdetés feladásakor is beállítható
+- Hölgyek csak hölgy utasokat fogadhatnak/kereshetnek
+- Az utazás garantáltan komfortos és jó hangulatú lesz
+
+**Keresőbox:**
+- A weboldalunkon/chatbotunkban is elérhető lesz egy beépített kereső
+- Azonnal csekkolhatjátok a szabad helyeket
 
 **Facebook Telekocsi Csoport:**
 - Csatlakozz a hivatalos csoportunkhoz
-- Megtalálhatod azokat, akik ugyanarról a településről vagy környékről érkeznek, mint te
+- Megtalálhatod azokat, akik ugyanarról a településről vagy környékről érkeznek
 
 **Networking az úton:**
-- Ha többen érkeztek egy autóval, nemcsak a költségeket és a parkolási nehézségeket osztjátok meg
+- Ha többen érkeztek egy autóval, megosztoztok a költségeken és a parkolási nehézségeken
 - Már a rendezvény előtt megismerhetsz más szakembereket
 
-**Hogyan működik?**
-- Nézz bele a csoportba, add meg honnan jössz
-- Vagy keress szabad helyeket a felajánlott autókban!
+**Hogyan csatlakozz?**
+- Akár sofőrként (hogy megoszd a költségeid), akár utasként érkezel
+- Figyeld a hírleveleinket a direkt linkért és a speciális címkékért!
 
 ## 🍽️ Étkezés
-- Kávé, víz, édes és sós péksütemény a standoknál
-- Külön büfé szendvicsekkel
-- VIP jeggyel: catering egész nap!
-- A Bálnában éttermek is vannak (à la carte, hosszabb kiszolgálás)
+
+### Helyszíni lehetőségek
+**Kóstoltató partnerek:**
+- A kiállítói térben számos partnerünk kínál kóstolókat
+- Napközben folyamatosan falatozhatsz különlegességeket
+
+**VIP jeggyel:**
+- Catering egész nap! (kávé, víz, üdítő, finger food, pogácsa, gyümölcs)
+
+### 🍴 Bálna Éttermek (Földszint)
+Közvetlenül az épületben több étterem is található:
+- Több helyszín kifejezetten nekünk összeállított, **kedvezményes árú 2-3 fogásos menüajánlattal** készül
+- Részletek és előfoglalás hamarosan!
+- Vannak à la carte éttermek is, ha egyénileg választanál
+- **Figyelem:** az éttermi kiszolgálás hosszabb lehet a nagy létszám miatt
+
+### Sétatávolságra (Fővám tér és környéke)
+Pár perc sétára számos opciót találsz:
+- Amber's French Bakery
+- Burger King
+- Vásárcsarnok környéki kifőzdék
+
+### Éttermi kedvezmények és menük
+- Folyamatosan tárgyalunk a Bálna éttermeivel fix áras menükről
+- Amint véglegesítjük a partnerek listáját és az árakat, közzétesszük a chatbotban és a Facebook csoportban
+- Egyes helyeken szükség lehet előzetes jelzésre az adagok kalkulálásához
+
+### 💡 Szervezői tipp
+Mivel nagy létszámú eseményről van szó, a várakozási idő elkerülése érdekében javasoljuk:
+- Készíts be egy kis útravaló szendvicset vagy snacket a táskádba
+- Így biztosan nem maradsz éhes a két előadás között!
 
 ## 🐾 Kisállatok
 - **A Bálna Budapest állatbarát helyszín**, de az esemény volumene és az embertömeg miatt **NEM JAVASOLJUK, hogy kiskedvencekkel érkezzenek** a látogatók
