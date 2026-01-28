@@ -774,6 +774,110 @@ ANKA Optika, Hormonmentes/LaDea, Secret Soul Coaching, Kassai Eszter, ANITATOTH 
 - **Webinárok:** Email listára fel lehet iratkozni
 - **Business Brunch:** 4 alkalom, Zazi (MOL székház)
 
+## 🎟️ Érkezés és Regisztráció
+
+A regisztráció gyors és egyszerű, az alábbiak szerint készülj:
+
+**QR-kód:**
+- A regisztrációs pultnál az e-mailben kapott QR-kódot kell bemutatnod
+- Elegendő telefonon megmutatni, nem szükséges kinyomtatni!
+
+**Regisztrációs pultok:**
+- Külön sor várja a **VIP vendégeket** (soron kívüli beléptetés!)
+- 4 külön pult a Basic, Prémium és Staff jegyeseknek
+
+**Időrend:**
+- **Kapunyitástól 08:40-ig:** A kiállítói térben tudsz ismerkedni, networkingelni
+- **Reggeli meditáció:** A Relax teremben részt vehetsz a Napindító meditáción (08:15-08:45)
+- **Előadótermek nyitása:** 08:40-08:45 között
+
+**Késői érkezés:**
+- Ha nem érsz oda reggelre, ne aggódj!
+- A regisztráció **egész nap üzemel**, bármikor bekapcsolódhatsz a programba
+
+## 🧥 Ruhatár és Gardrób
+
+A helyszínen biztosítunk ruhatárat, de a Bálna adottságai miatt a kapacitás korlátozott:
+- **Maximum 800 kabát** fér el
+
+**Tippek:**
+- Aki autóval (mélygarázsban vagy közelben) érkezik, javasoljuk, hogy a nagyobb kabátokat hagyja a kocsiban a gyorsabb haladás érdekében
+
+**Kiállítóknak:**
+- A saját standotoknál is elhelyezhetitek a dolgaitokat
+
+**Előadóknak:**
+- Számotokra külön backstage biztosított a kabátok és csomagok tárolására
+
+## ♿ Akadálymentesítés és Speciális igények
+
+**Akadálymentesítés:**
+- A Bálna **teljes mértékben akadálymentes**
+- A mélygarázstól személyliftek indulnak
+- Az első emeleten nincsenek lépcsők vagy szinteltolások
+- Kerekesszékkel is kényelmesen bejárható a teljes terület
+
+**Gyermekfelügyelet:**
+- ⚠️ A rendezvényen **gyermekfelügyelet NEM biztosított**
+- Kérjük, erről egyénileg gondoskodjatok
+
+## 🎉 Networking Before Party (Március 18.)
+
+A fő esemény előestéjén, **2026. március 18-án (szerda) 18:00 és 23:00 között** tartunk egy exkluzív Before Partyt!
+
+**Helyszín:** Várhatóan az Up Hotelben
+
+**Program:**
+- Divatbemutató
+- Vezetett networking
+- Kis létszámú workshopok
+
+**Részvétel:**
+- Jegytípustól függetlenül bárki jelentkezhet
+- A helyszín befogadóképessége limitált (**max. 300 fő**)
+- A regisztráció kötelező!
+
+**Előregisztráció előnye:** 🎁
+- Itt már átveheted a másnapi karszalagodat is
+- A főnap reggelén **sorban állás nélkül, soron kívül** juthatsz be a Bálnába!
+
+**Jelentkezés:**
+- Figyeld az e-mailjeidet, hamarosan küldjük a regisztrációs linket!
+
+## 💼 Online Konzultációk (Prémium és VIP jegyeseknek)
+
+A Prémium és VIP jegyesek számára idén **online formában** biztosítjuk a 30 perces, díjmentes szakmai konzultációkat a kiállítóinkkal!
+
+**Mikor?**
+- A rendezvény **előtti és utáni héten** zajlanak
+- Így a helyszínen egyetlen előadásról sem maradsz le!
+
+**Jelentkezés:**
+- **Február végén** küldünk egy kérdőívet e-mailben
+- Időpontot foglalhatsz a választott szakértőhöz
+
+**Fontos:**
+- A helyek száma limitált
+- Érdemes az elsők között regisztrálni a levél megérkezése után!
+
+## 📶 Apró, de fontos információk
+
+**Wi-Fi:**
+- A jelszót a helyszínen és az aznapi online értesítőkben osztjuk meg
+
+**Dohányzás:**
+- Az épületben **tilos**
+- Kizárólag kültéren, a kijelölt helyeken szabad
+
+**Elsősegély:**
+- Rosszullét esetén fordulj bizalommal a legközelebbi hostesshez vagy szervezőhöz
+- Azonnal segítenek az orvosi pont megtalálásában
+
+**VIP Zóna:**
+- Közvetlenül a Networking terem mellett található
+- Kb. 100 nm, **dunai panorámával**
+- Jól láthatóan felmatricázva és táblákkal jelezve
+
 ## ❓ Gyakori kérdések (GYIK)
 
 **Hogyan jutok a jegyemhez?**
