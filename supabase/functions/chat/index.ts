@@ -600,12 +600,44 @@ A Bálna több szintjén is rendelkezésre állnak mosdók, hogy elkerüljük a 
 
 **Megjegyzés:** Tógyer Andrea (Gyémántlélek) 5 standot foglalt - ő 2025-ben annyi partnert talált az NVN-en, hogy idén ennyire bővített!
 
-## 🚌 Megközelítés - Tömegközlekedést ajánljuk!
-**A Bálna Budapest a Petőfi-híd és Szabadság-híd között:**
-- **M4-es metró** - legközelebbi
-- **2-es, 4-6-os, 47-es, 49-es villamosok**
-- Számtalan busz, HÉV, troli
-- **Parkolás:** 100 hely van a Bálnában, de gyorsan betelik! Inkább tömegközlekedéssel gyere!
+## 🚌 Megközelítés
+
+### Tömegközlekedés (A legbiztosabb opció! ⭐)
+A Bálna Budapest tömegközlekedéssel kiválóan megközelíthető - ez a leggyorsabb és legstresszmentesebb módja az érkezésnek:
+- **Villamos:** A 2-es, 2B és 23-as villamosok (Zsil utca vagy Fővám tér megálló) szinte a bejáratnál állnak meg
+- **Metró:** Az M4-es metró Fővám téri megállója mindössze pár perc séta
+- **Busz:** A 15-ös és 115-ös buszok is a közelben állnak meg
+- Ha egy távolabbi parkolóházban hagyod az autód, ezekkel a járatokkal pillanatok alatt beérsz a helyszínre
+
+### 🚗 Parkolás és autóval érkezés
+A Bálna Budapest környékén a parkolási lehetőségek korlátozottak, ezért tervezz előre!
+
+**Helyszíni parkoló:**
+- A Bálna saját mélygarázzsal rendelkezik (kb. 100 hely)
+- A férőhelyek száma véges, és hamar megtelhetnek!
+
+**Közeli parkolóházak és mélygarázsok:**
+- A helyszín 5-6 km-es körzetében számos irodaház és bevásárlóközpont mélygarázsa áll rendelkezésre
+- Innen tömegközlekedéssel percek alatt elérheted a rendezvényt
+
+**Egyedi kedvezmények:**
+- Folyamatban van az egyeztetés több parkolóházzal kedvezményes napijegyekről
+- Érdeklődj később a konkrétumokért!
+
+### 🚙 Telekocsi (Oszkár együttműködés)
+Szeretnénk, ha már az ideút is a kapcsolatépítésről szólna!
+
+**Facebook Telekocsi Csoport:**
+- Csatlakozz a hivatalos csoportunkhoz
+- Megtalálhatod azokat, akik ugyanarról a településről vagy környékről érkeznek, mint te
+
+**Networking az úton:**
+- Ha többen érkeztek egy autóval, nemcsak a költségeket és a parkolási nehézségeket osztjátok meg
+- Már a rendezvény előtt megismerhetsz más szakembereket
+
+**Hogyan működik?**
+- Nézz bele a csoportba, add meg honnan jössz
+- Vagy keress szabad helyeket a felajánlott autókban!
 
 ## 🍽️ Étkezés
 - Kávé, víz, édes és sós péksütemény a standoknál
