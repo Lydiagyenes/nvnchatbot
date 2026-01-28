@@ -207,6 +207,33 @@ const ragKnowledgeBase = `
 - **Hősök terem - MeetUp:** Közönségtalálkozók, workshopok
 - **Kinizsi terem - Relax:** Meditáció, arcjóga, hangfürdő, lelki programok
 
+### 🚻 Mosdók a Bálnában
+A Bálna több szintjén is rendelkezésre állnak mosdók, hogy elkerüljük a torlódást:
+
+**Földszint:**
+- Központosított, nagy kapacitású mosdók (6-8 fülke)
+- A liftek és mozgólépcsők közelében találhatóak
+
+**1. emelet (Fő helyszín):**
+- Központi mosdók: A liftek és a teherlift mellett (6-8 fülke)
+- Kiállítói tér: Kisebb, egyedi női és férfi mosdó
+- A nagy létszámra való tekintettel ezeket a rendezvény alatt vegyesen (unisex) is igénybe lehet venni
+
+**2. emelet:**
+- Bár itt nincs programunk, a szinten található mosdók a vendégeink számára szabadon használhatóak
+- Érdemes ide is felnézni, ha a többi szinten sorban állás van
+
+**Tájékozódás a mosdókhoz:**
+- Irányítótáblák: Minden szinten jól látható táblák jelzik a mosdók irányát
+- Személyzet: A hostess lányok és a szervező csapat tagjai készséggel segítenek
+- Mozgólépcsővel és lifttel gyorsan lehet közlekedni a szintek között
+
+**Várakozási idő:**
+- Egy ekkora monumentális épületben a mosdók elhelyezkedése fix (mint konferenciaközpontokban vagy stadionokban)
+- A 2. emeleti mosdók általában kevésbé zsúfoltak, mint az első emeletiek
+- A földszinti mosdók is gyakran gyorsabb alternatívát jelentenek
+- Köszönjük a türelmet, a ház összes elérhető kapacitását biztosítjuk!
+
 ## 📅 RÉSZLETES NAPI PROGRAM (2026. március 19.)
 
 ### 08:15 - 08:45
