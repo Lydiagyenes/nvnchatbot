@@ -610,19 +610,131 @@ A Bálna Budapest tömegközlekedéssel kiválóan megközelíthető - ez a legg
 - Ha egy távolabbi parkolóházban hagyod az autód, ezekkel a járatokkal pillanatok alatt beérsz a helyszínre
 
 ### 🚗 Parkolás és autóval érkezés
-A Bálna Budapest környékén a parkolási lehetőségek korlátozottak, ezért tervezz előre!
+A Bálna Budapest környékén a parkolási lehetőségek korlátozottak, ezért tervezz előre! Az alábbi részletes útmutatóban összegyűjtöttük a legjobb opciókat.
 
-**Helyszíni parkoló:**
-- A Bálna saját mélygarázzsal rendelkezik (kb. 100 hely)
-- A férőhelyek száma véges, és hamar megtelhetnek!
+---
 
-**Közeli parkolóházak és mélygarázsok:**
-- A helyszín 5-6 km-es körzetében számos irodaház és bevásárlóközpont mélygarázsa áll rendelkezésre
-- Innen tömegközlekedéssel percek alatt elérheted a rendezvényt
+## 🅿️ KÖZVETLEN KÖZELBEN (1-2 km)
 
-**Egyedi kedvezmények:**
-- Folyamatban van az egyeztetés több parkolóházzal kedvezményes napijegyekről
-- Érdeklődj később a konkrétumokért!
+### Bálna Budapest mélygarázs (Fővám tér 11-12.)
+- **Kapacitás:** Korlátozott (~100 hely)
+- **Nyitvatartás:** 0-24
+- **Díjak:** Első óra **INGYENES**, utána **450 Ft/óra**
+- **Napi maximum:** ~8 órányi díj (~3.600 Ft), utána nem számolnak fel többet
+- ⚠️ **Előzetes foglalás NEM lehetséges** - érkezési sorrendben!
+- **Tipp:** A kapacitás korlátozott, érdemes korán érkezni vagy alternatívát választani
+
+### Csarnok téri parkoló (Nagyvásárcsarnok mögött)
+- **Helyszín:** Felszíni, sorompós parkoló a Vámház körútról nyíló Csarnok téren
+- **Távolság:** Pár perc séta a Bálnától
+- **Kapacitás:** Korlátozott (néhány tucat hely)
+- **Díjak:** Hétköznap napközben ~**600 Ft/óra** (Ferencváros A-díjzóna)
+- **Ingyenes:** Este 20:00 után és hétvégén
+- ⚠️ Nagy rendezvény idején gyorsan megtelhet!
+
+### Páva Ház Parkolóház (Mester utca 30-32.)
+- **Helyszín:** Studium Irodaház/Páva Ház mélygarázsa
+- **Kapacitás:** ~300 férőhely
+- **Nyitvatartás:** 0-24
+- **Díjak:** ~**600 Ft/óra**, hosszú tartózkodásra napi jegy ~**6.000 Ft/nap**
+- **Távolság:** ~1 km a Bálnától (Petőfi híd pesti hídfő)
+- **Megközelítés:** Gyalog vagy 4-6 villamossal (Boráros tér megálló)
+
+### Corvin Plaza Parkolóház (Futó utca 52.)
+- **Helyszín:** Corvin negyed mélygarázs
+- **Kapacitás:** **800+ férőhely** ⭐
+- **Nyitvatartás:** 0-24
+- **Behajtás:** Futó utca vagy Vajdahunyad utca felől
+- **Díjak:** Első 2 óra együtt **400 Ft**, minden további óra **400 Ft**
+- **Egész napos parkolás:** ~10-12 óra = kb. **4.000–4.800 Ft**
+- **Távolság:** ~1,5 km a Bálnától
+- **Megközelítés:** 4-6-os villamossal (Corvin-negyedtől Boráros térig) ~5 perc
+
+### Lurdy Ház parkoló (Könyves Kálmán krt. 12-14.)
+- **Kapacitás:** Nagy! Felszíni + mélygarázs összesen ~**1.300 férőhely** ⭐
+- **Díjak felszínen:** Első 2 óra **INGYENES**, utána **300 Ft/óra**
+- **Díjak mélygarázs:** **450 Ft/óra**
+- **Egész napos felszíni parkolás:** ~8-10 óra = kb. **1.800–2.400 Ft** 💰
+- **Távolság:** ~2 km délkeletre
+- **Megközelítés:** 2-es villamossal (Haller utcától Zsil utcáig) vagy H7 HÉV-vel (Közvágóhídtól Boráros térig) ~10 perc
+
+---
+
+## 🌉 BUDA OLDALI LEHETŐSÉGEK (Lágymányos környéke)
+
+### Kopaszi-gát / BudaPart szabadtéri parkoló ⭐ AJÁNLOTT
+- **Helyszín:** Kopaszi-gát bejáratánál, nagy murvás felszíni parkoló
+- **Nyitvatartás:** Napközben 06:00-tól, télen 22:00-ig, nyáron 02:00-ig
+- **Fizetés:** Csak bankkártyával vagy mobilappal (helyszíni automata)
+- **Díjak:** Első 30 perc **INGYENES**, utána sávosan növekvő tarifa
+- **Napi maximum:** 5+ óra = max. **~2.200 Ft** 💰
+- **Előny:** Hétvégén is nyitva, nagy kapacitás, olcsó!
+- **Megközelítés Bálnához:** ~20 perc tömegközlekedéssel
+  - 1-es villamossal Közvágóhídig, onnan 2-es villamos, VAGY
+  - 154-es, 33-as busszal Újbuda-központig, onnan M4 metróval a Fővám térre
+
+### BudaPart mélygarázsok (Gate, City, Downtown)
+- **Helyszín:** BudaPart városnegyed, Dombóvári útnál
+- **Nyitvatartás:** Mind 0-24
+- **Fizetés:** Csak bankkártyával vagy mobilappal
+
+| Parkolóház | Cím | Kapacitás | Óradíj |
+|------------|-----|-----------|--------|
+| **Gate** | Dombóvári út 27. | ~101 hely | 470 Ft |
+| **City** | Dombóvári út 26. | ~100 hely | 350 Ft |
+| **Downtown** | Dombóvári út 25. | ~100 hely | 350 Ft |
+
+- **10 órás parkolás City/Downtown:** ~**3.500 Ft**
+- **Megközelítés:** Busz/villamos vagy H7 HÉV (Lágymányosi hídfő → Boráros tér) ~20 perc
+
+---
+
+## 🚙 TÁVOLABBI NAGY KAPACITÁSÚ PARKOLÓK (3-6 km)
+
+### WestEnd City Parkoló (Ferdinánd híd mellett) ⭐ TOP VÁLASZTÁS
+- **Helyszín:** Nyugati pályaudvarnál, WestEnd mögötti **szabadtéri** parkoló
+- **Nyitvatartás:** 0-24 (non-stop)
+- **Kapacitás:** Nagy, általában mindig van hely!
+- **Díjak:** 
+  - 12 órára: **2.500 Ft** 💰
+  - 24 órára: **4.000 Ft**
+- **Megközelítés:** 4-6-os villamossal Nyugati tértől Boráros térig ~**15 perc**, onnan 5 perc séta
+- **Megjegyzés:** A fedett mélygarázs 600 Ft/óra, de hosszú időre a szabadtéri **sokkal olcsóbb**!
+
+### Arena Mall parkolóháza (Kerepesi út 9.) ⭐ LEGJOBB ÁR-ÉRTÉK
+- **Helyszín:** Keleti pályaudvar mellett
+- **Kapacitás:** **~2.800 férőhely** - szinte biztosan van hely!
+- **Nyitvatartás:** Behajtás 5:00–24:00, kihajtás 0-24
+- **Díjak:**
+  - Első óra: **INGYENES**
+  - 2. óra: **200 Ft**
+  - Minden további óra: **300 Ft**
+  - **~8 óra parkolás = kb. 2.000 Ft** 💰💰
+- **Megközelítés:** M4 metróval Keleti → Fővám tér = **3 megálló, 8 perc!** ⭐
+- **Különösen ajánlott:** Ha a belvárosi parkolók telítettek!
+
+### Allee Bevásárlóközpont mélygarázs (Október huszonharmadika u. 8-10.)
+- **Kapacitás:** ~1.400 férőhely
+- **Díjak:** Egységesen **450 Ft/óra** minden nap
+- **~10 óra parkolás:** ~4.500 Ft
+- **Megközelítés:** 47-es vagy 49-es villamossal Móricz Zs. körtérről → Fővám tér ~10-12 perc
+- **Megjegyzés:** Ingyenes parkolás nincs, de ha máshol nem találsz helyet, jó alternatíva
+
+---
+
+## 💡 PARKOLÁSI TIPPEK
+
+**Legjobb ár-érték arány:**
+1. 🥇 **Arena Mall** - 8 óra ~2.000 Ft + M4 metró 8 perc
+2. 🥈 **Lurdy Ház felszíni** - 8 óra ~1.800 Ft + villamos/HÉV 10 perc
+3. 🥉 **Kopaszi-gát** - egész nap max ~2.200 Ft + tömegközlekedés 20 perc
+4. **WestEnd szabadtéri** - 12 óra 2.500 Ft + 4-6 villamos 15 perc
+
+**Fontos tudnivalók:**
+- Mindegyik parkoló alkalmas **8+ órás** tartózkodásra
+- Nincs 3 órás közterületi korlátozás, mint az utcán
+- Érdemes **korán érkezni** a közvetlen környékre (Bálna, Csarnok tér)
+- Ha biztosra akarsz menni: **Arena Mall** vagy **WestEnd** - nagy kapacitás, kedvező árak
 
 ### 🚙 Telekocsi (Oszkár együttműködés)
 Szeretnénk, ha már az ideút is a kapcsolatépítésről szólna! Az Oszkár Telekocsival közös megoldást kínálunk:
