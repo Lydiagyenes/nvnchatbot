@@ -787,11 +787,11 @@ Többféle megoldással készülünk, a kínálat folyamatosan bővül!
 **VIP jeggyel:**
 - Catering egész nap! (kávé, víz, üdítő, finger food, pogácsa, gyümölcs)
 
-### 🍴 Bálna Éttermek (Földszint) – 20% KEDVEZMÉNY!
+### 🍴 Bálna Éttermek (Földszint)
 Közvetlenül az épületben több étterem is található:
-- A földszinti éttermekben (pl. **Rombusz étterem**) **20% kedvezményt** kapsz az étlap áraiból
-- **Nem kell kuponkód, a karszalagod a kulcs** minden kedvezményhez! 🎫
-- Több helyszín kifejezetten nekünk összeállított, **kedvezményes árú 2-3 fogásos menüajánlattal** készül
+- A Bálna egyes éttermeiben, pl. a **Rombusz étteremben**, **20% kedvezménnyel** ehetsz, ha felmutatod az eseményre kapott **karszalagodat** 🎫
+- **Fontos:** Nem minden étterem biztosítja ezt a kedvezményt, érdemes a helyszínen tájékozódni!
+- **Nem kell kuponkód, a karszalagod a kulcs!**
 - Részletek és előfoglalás hamarosan!
 - Vannak à la carte éttermek is, ha egyénileg választanál
 - **Figyelem:** az éttermi kiszolgálás hosszabb lehet a nagy létszám miatt
