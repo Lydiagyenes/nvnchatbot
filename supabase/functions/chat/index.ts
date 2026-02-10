@@ -204,7 +204,8 @@ const ragKnowledgeBase = `
 - **Görgey terem (500 fő):** Czopkó Nóra konferál - fő előadások
 - **Hadik terem (250 fő):** Kisebb, fókuszált előadások
 - **Aggházy terem (250 fő):** Kisebb, fókuszált előadások
-- **Hősök terem - MeetUp:** Közönségtalálkozók, workshopok
+- **Hősök terem - MeetUp terem:** Közönségtalálkozók, kisebb workshopok (pl. Kassai Eszter, Mihalik Gyöngyvér, esetleg Szabados Ági)
+- **Pálffy terem - Networking terem:** Egész napos vezetett networking a **Juhhé** csapatával (Prémium és VIP jegyeseknek)
 - **Kinizsi terem - Relax:** Meditáció, arcjóga, hangfürdő, lelki programok
 
 ### 🚻 Mosdók a Bálnában
@@ -253,7 +254,7 @@ A Bálna több szintjén is rendelkezésre állnak mosdók, hogy elkerüljük a 
 | Hadik terem (250 fő) | Zolnay Judit | Célkitűzés, célok mérése, ambíciózus gondolkodás |
 | Aggházy terem (250 fő) | Gál Kristóf | Üzleti stratégia, skálázódás - kisvállalkozói szemmel |
 
-### 09:15 - 10:30
+### 11:15 - 12:30
 | Terem | Előadó | Előadás címe |
 |-------|--------|--------------|
 | Hősök terem - MeetUp | Kassai Eszter | Flydentity találkozó - Közösségi találkozó |
@@ -326,7 +327,11 @@ A Bálna több szintjén is rendelkezésre állnak mosdók, hogy elkerüljük a 
 |-------|--------|--------------|
 | Hősök terem - MeetUp | Szabados Ági | Közönségtalálkozó / Mini Workshop *(egyeztetés alatt, véglegesítés folyamatban)* |
 
-### 14:45 - 15:15
+### Délután (pontos idő egyeztetés alatt)
+| Terem | Előadó | Előadás címe |
+|-------|--------|--------------|
+| Hősök terem - MeetUp | Mihalik Gyöngyvér | Közönségtalálkozó - Délutáni interaktív találkozó |
+
 | Terem | Előadó | Előadás címe |
 |-------|--------|--------------|
 | Görgey terem (500 fő) | Halmi Bence és Halmi Bajnok | AI + Short form videók - A bevételnövekedés leggyorsabb útja 2026-ban |
@@ -438,6 +443,7 @@ A Bálna több szintjén is rendelkezésre állnak mosdók, hogy elkerüljük a 
 - **Titulus:** Projektmenedzsment szakértő
 - **Előadás:** Káoszból struktúra
 - **Téma:** Projekttervezés és stratégiák a fókuszáltságért. Hogyan teremtsünk rendet a vállalkozói káoszban.
+- **Megjegyzés:** Délután a **Hősök terem (MeetUp)** -ben közönségtalálkozót is tart!
 - **Kutyája:** Archie 🐕
 
 ### Jilly Krisztina
@@ -1011,7 +1017,7 @@ A Prémium és VIP jegyesek számára idén **online formában** biztosítjuk a 
 - Azonnal segítenek az orvosi pont megtalálásában
 
 **VIP Zóna:**
-- Közvetlenül a Networking terem mellett található
+- Közvetlenül a Networking terem (Pálffy terem) mellett található
 - Kb. 100 nm, **dunai panorámával**
 - Jól láthatóan felmatricázva és táblákkal jelezve
 
