@@ -777,6 +777,9 @@ Többféle megoldással készülünk, a kínálat folyamatosan bővül!
 **Kóstoltató partnerek:**
 - A kiállítói térben több partnerünk is készül **egészséges falatkákkal és különleges finomságokkal**
 - Napközben folyamatosan falatozhatsz különlegességeket
+- **Gluténmentes / vegán opciók:** A **Szafi** termékei mindenképp elérhetők lesznek – gluténmentes és vegán alternatívák!
+- **Kávés partnereknél** alternatív, **növényi tej** is elérhető lesz (pl. zab-, mandula-, kókusztej)
+- **Fontos:** A Gyémántlélek Kft. (Tógyer Andrea) szimpla kiállító – náluk NEM lesznek mentes vagy egyéb falatkák
 
 **Helyszíni catering/büfé:**
 - Egyeztetés alatt áll az emeleti catering és egy **fizetős büfé** kialakítása, hogy a szünetekben is legyen frissítő
