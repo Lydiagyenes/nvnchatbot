@@ -968,24 +968,19 @@ A helyszínen biztosítunk ruhatárat, de a Bálna adottságai miatt a kapacitá
 
 A fő esemény előestéjén, **2026. március 18-án (szerda) 18:00 és 23:00 között** tartunk egy exkluzív Before Partyt!
 
-**Helyszín:** Várhatóan az Up Hotelben
+**Helyszín:** **Up Hotel**
 
 **Program:**
-- Divatbemutató
-- Vezetett networking
-- Kis létszámú workshopok
+- A pontos program még szervezés alatt áll – részletekről e-mailben tájékoztatunk!
 
 **Részvétel:**
-- Jegytípustól függetlenül bárki jelentkezhet
+- **Minden jegytípussal** lehet regisztrálni!
 - A helyszín befogadóképessége limitált (**max. 300 fő**)
-- A regisztráció kötelező!
+- **Február végén** e-mailben kérdőívet küldünk, azt kitöltve tudsz jelentkezni
 
 **Előregisztráció előnye:** 🎁
 - Itt már átveheted a másnapi karszalagodat is
 - A főnap reggelén **sorban állás nélkül, soron kívül** juthatsz be a Bálnába!
-
-**Jelentkezés:**
-- Figyeld az e-mailjeidet, hamarosan küldjük a regisztrációs linket!
 
 ## 💼 Online Konzultációk (Prémium és VIP jegyeseknek)
 
