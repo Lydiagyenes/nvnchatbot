@@ -324,7 +324,7 @@ A Bálna több szintjén is rendelkezésre állnak mosdók, hogy elkerüljük a 
 ### 14:15 - 15:00
 | Terem | Előadó | Előadás címe |
 |-------|--------|--------------|
-| Hősök terem - MeetUp | Szabados Ági | Közönségtalálkozó + Workshop - Interaktív találkozó |
+| Hősök terem - MeetUp | Szabados Ági | Közönségtalálkozó / Mini Workshop *(egyeztetés alatt, véglegesítés folyamatban)* |
 
 ### 14:45 - 15:15
 | Terem | Előadó | Előadás címe |
@@ -514,6 +514,7 @@ A Bálna több szintjén is rendelkezésre állnak mosdók, hogy elkerüljük a 
 - **Titulus:** Tulajdonos, Libertine Könyvesboltok és Könyvkiadó
 - **Előadás:** Hobbiból lett szenvedély - közösség- és vállalkozásépítés
 - **Téma:** Hogyan épült fel a NIOK és a Libertine márka az olvasás szeretetéből. Közösségépítés, több lábon állás.
+- **Megjegyzés:** A délutáni közönségtalálkozó/mini workshop még egyeztetés alatt áll. Egész nap megtalálható a **Libertine standjánál** a **Reading Lounge** területén.
 
 ## 🔍 ELŐADÓK TÉMA SZERINT (gyors kereséshez)
 - **Stressz, kiégés, lelki egyensúly:** Kiss-Kocsis Ágnes, Karacs Ildikó, Szkálosi Rita, Gálik Klára
