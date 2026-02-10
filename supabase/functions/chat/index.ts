@@ -602,6 +602,9 @@ A Bálna több szintjén is rendelkezésre állnak mosdók, hogy elkerüljük a 
 
 ## 🚌 Megközelítés
 
+### 🚌 Közlekedés & Logisztika
+**Alapvetés:** A helyszín tömegközlekedéssel zseniálisan megközelíthető több irányból is. Az autóval érkezőknek a korlátozott parkolás nem akadály, hanem lehetőség a környezettudatosságra és az új ismeretségekre!
+
 ### Tömegközlekedés (A legbiztosabb opció! ⭐)
 A Bálna Budapest tömegközlekedéssel kiválóan megközelíthető - ez a leggyorsabb és legstresszmentesebb módja az érkezésnek:
 - **Villamos:** A 2-es, 2B és 23-as villamosok (Zsil utca vagy Fővám tér megálló) szinte a bejáratnál állnak meg
@@ -738,10 +741,12 @@ A Bálna Budapest környékén a parkolási lehetőségek korlátozottak, ezért
 
 ### 🚙 Telekocsi (Oszkár együttműködés)
 Szeretnénk, ha már az ideút is a kapcsolatépítésről szólna! Az Oszkár Telekocsival közös megoldást kínálunk:
+**Cél:** Spórolj az üzemanyagon, óvd a környezetet és építs kapcsolatokat már az úton!
 
 **Egyedi Landing Oldal:**
-- Az eseménynek saját aloldala lesz az Oszkáron
+- **oszkar.com/noivallalkozoknapja** – Az eseménynek saját aloldala van az Oszkáron
 - Kifejezetten a rendezvényre tartó sofőröket és utasokat találjátok meg
+- Használd a **@noivallalkozok** címkét (ékezet nélkül!) a kereséshez/hirdetéshez
 
 **"Női sofőr" opció:** 🙋‍♀️
 - A keresőben és a hirdetés feladásakor is beállítható
@@ -749,12 +754,13 @@ Szeretnénk, ha már az ideút is a kapcsolatépítésről szólna! Az Oszkár T
 - Az utazás garantáltan komfortos és jó hangulatú lesz
 
 **Keresőbox:**
-- A weboldalunkon/chatbotunkban is elérhető lesz egy beépített kereső
+- A weboldalunkon/chatbotunkban is elérhető lesz egy beépített kereső (Oszkár kereső box)
 - Azonnal csekkolhatjátok a szabad helyeket
 
-**Facebook Telekocsi Csoport:**
-- Csatlakozz a hivatalos csoportunkhoz
-- Megtalálhatod azokat, akik ugyanarról a településről vagy környékről érkeznek
+**Parkolási "Challenge" megoldása:** 🚗💡
+- "Bár a helyszínen a parkolóhelyek száma limitált, mi ezt lehetőségnek fogjuk fel!"
+- Csatlakozz a Facebook csoporthoz vagy használd az Oszkárt, hogy összeálljatok más résztvevőkkel
+- Így nemcsak a parkolás lesz egyszerűbb, de már a rendezvény előtt barátokra lelhetsz!
 
 **Networking az úton:**
 - Ha többen érkeztek egy autóval, megosztoztok a költségeken és a parkolási nehézségeken
@@ -764,18 +770,24 @@ Szeretnénk, ha már az ideút is a kapcsolatépítésről szólna! Az Oszkár T
 - Akár sofőrként (hogy megoszd a költségeid), akár utasként érkezel
 - Figyeld a hírleveleinket a direkt linkért és a speciális címkékért!
 
-## 🍽️ Étkezés
+## 🍽️ Étkezés & Gasztronómia
+Többféle megoldással készülünk, a kínálat folyamatosan bővül!
 
 ### Helyszíni lehetőségek
 **Kóstoltató partnerek:**
-- A kiállítói térben számos partnerünk kínál kóstolókat
+- A kiállítói térben több partnerünk is készül **egészséges falatkákkal és különleges finomságokkal**
 - Napközben folyamatosan falatozhatsz különlegességeket
+
+**Helyszíni catering/büfé:**
+- Egyeztetés alatt áll az emeleti catering és egy **fizetős büfé** kialakítása, hogy a szünetekben is legyen frissítő
 
 **VIP jeggyel:**
 - Catering egész nap! (kávé, víz, üdítő, finger food, pogácsa, gyümölcs)
 
-### 🍴 Bálna Éttermek (Földszint)
+### 🍴 Bálna Éttermek (Földszint) – 20% KEDVEZMÉNY!
 Közvetlenül az épületben több étterem is található:
+- A földszinti éttermekben (pl. **Rombusz étterem**) **20% kedvezményt** kapsz az étlap áraiból
+- **Nem kell kuponkód, a karszalagod a kulcs** minden kedvezményhez! 🎫
 - Több helyszín kifejezetten nekünk összeállított, **kedvezményes árú 2-3 fogásos menüajánlattal** készül
 - Részletek és előfoglalás hamarosan!
 - Vannak à la carte éttermek is, ha egyénileg választanál
@@ -786,11 +798,6 @@ Pár perc sétára számos opciót találsz:
 - Amber's French Bakery
 - Burger King
 - Vásárcsarnok környéki kifőzdék
-
-### Éttermi kedvezmények és menük
-- Folyamatosan tárgyalunk a Bálna éttermeivel fix áras menükről
-- Amint véglegesítjük a partnerek listáját és az árakat, közzétesszük a chatbotban és a Facebook csoportban
-- Egyes helyeken szükség lehet előzetes jelzésre az adagok kalkulálásához
 
 ### 💡 Szervezői tipp
 Mivel nagy létszámú eseményről van szó, a várakozási idő elkerülése érdekében javasoljuk:
@@ -885,6 +892,17 @@ ANKA Optika, Hormonmentes/LaDea, Secret Soul Coaching, Kassai Eszter, ANITATOTH 
 - **Live-ok:** Konkrét témákkal
 - **Webinárok:** Email listára fel lehet iratkozni
 - **Business Brunch:** 4 alkalom, Zazi (MOL székház)
+
+## 👥 Facebook Csoport – Csatlakozz a közösséghez!
+
+**Miért érdemes csatlakozni?**
+- **Networking:** Ismerkedj meg a többi résztvevővel már az esemény előtt!
+- **Praktikus infók:** Első kézből kapsz tájékoztatást a kényelmi funkciókról, partnerekről és kóstoltatókról
+- **Live videók:** A szervezők élő bejelentkezésekben mutatják be a helyszínt (mosdók, terek, megközelítés)
+- **Közösség:** Itt találhatsz útitársat vagy szakmai partnereket
+- **Tájékozódás:** A csoportban videós bejárást is találsz majd, hogy otthonosan mozogj az épületben
+
+**Link:** Csatlakozás a Facebook csoporthoz (a pontos linket a hírlevelekben és a weboldalon találod)
 
 ## 🎟️ Érkezés és Regisztráció
 
