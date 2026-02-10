@@ -128,7 +128,7 @@ const ragKnowledgeBase = `
   - Részt vehetsz az "útleveles" nyereményjátékban
   - Kihasználhatod a kiállítók kedvezményes, exkluzív ajánlatait
   - Részt vehetsz a networking before partyn a rendezvény előtti estén
-  - Ajándékok: táska, jegyzetfüzet, toll, vitaminvíz
+  - Ajándékok: táska, jegyzetfüzet, toll, frissítő
 
 ### PREMIUM jegy - "Legnépszerűbb" ⭐
 - **Eredeti ár:** 59.900 Ft + áfa
