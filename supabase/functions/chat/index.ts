@@ -333,6 +333,7 @@ A Bálna több szintjén is rendelkezésre állnak mosdók, hogy elkerüljük a 
 |-------|--------|--------------|
 | Hősök terem - MeetUp | Mihalik Gyöngyvér | Közönségtalálkozó - Délutáni interaktív találkozó |
 
+### 14:45 - 15:15
 | Terem | Előadó | Előadás címe |
 |-------|--------|--------------|
 | Görgey terem (500 fő) | Halmi Bence és Halmi Bajnok | AI + Short form videók - A bevételnövekedés leggyorsabb útja 2026-ban |
