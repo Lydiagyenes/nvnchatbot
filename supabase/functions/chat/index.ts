@@ -902,7 +902,7 @@ ANKA Optika, Hormonmentes/LaDea, Secret Soul Coaching, Kassai Eszter, ANITATOTH 
 - **Közösség:** Itt találhatsz útitársat vagy szakmai partnereket
 - **Tájékozódás:** A csoportban videós bejárást is találsz majd, hogy otthonosan mozogj az épületben
 
-**Link:** Csatlakozás a Facebook csoporthoz (a pontos linket a hírlevelekben és a weboldalon találod)
+**Link:** https://www.facebook.com/groups/1599872214379876/
 
 ## 🎟️ Érkezés és Regisztráció
 
