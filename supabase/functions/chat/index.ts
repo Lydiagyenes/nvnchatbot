@@ -783,7 +783,9 @@ Többféle megoldással készülünk, a kínálat folyamatosan bővül!
 - **Fontos:** A Gyémántlélek Kft. (Tógyer Andrea) szimpla kiállító – náluk NEM lesznek mentes vagy egyéb falatkák
 
 **Helyszíni catering/büfé:**
-- Egyeztetés alatt áll az emeleti catering és egy **fizetős büfé** kialakítása, hogy a szünetekben is legyen frissítő
+- Tervezetten lesz **fizetős büfé** is, ahol szendvicseket, üdítőket és egyéb frissítőket vásárolhatsz a szünetekben
+- De ne aggódj: ha ez mégsem valósulna meg, akkor sem maradsz étel-ital nélkül – a kóstoltatók, kávépartnerek és a Bálna éttermei is rendelkezésedre állnak! 🙌
+- **Minden részletről e-mailes tájékoztatást is küldünk!**
 
 **VIP jeggyel:**
 - Catering egész nap! (kávé, víz, üdítő, finger food, pogácsa, gyümölcs)
