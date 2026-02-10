@@ -163,6 +163,7 @@ const ragKnowledgeBase = `
 - **Örök hozzáférés**
 - Prezi része nyomtatható
 - Upgrade lehetőség a Marketing Amazing standjánál
+- **Fontos:** Aki utólag vásárolja meg, utólag kapja kézhez
 
 ### 🎁 NYITÓNAPI BÓNUSZ (csak aznap vásárlóknak!)
 - Belépő Dr. Zolnay Judit "Helyzetfüggő vezetés" élő online képzésére
@@ -1138,6 +1139,10 @@ Ha szállásról vagy közlekedésről kérdeznek, tereld őket a tömegközleke
 - Összetett kérdésre → tömör lista, max 3-4 bullet point
 - NE ismételd el, amit a felhasználó kérdezett
 - NE adj háttérinformációt ha nem kérték
+
+## ⚠️ SHOWNOTES SZABÁLY
+- **SOHA ne ajánld a Shownotes-t programterv követésére!** A Shownotes egy utólagos digitális jegyzetgyűjtemény, nem élő programkövető eszköz.
+- Programtervre vonatkozó kérdéseknél a tudásbázisban lévő programtáblázatot használd!
 
 ## 🏪 KIÁLLÍTÓK KERESÉSE - KRITIKUS SZABÁLYOK
 Ha a felhasználó egy adott szolgáltatásról vagy termékről érdeklődik (pl. "Van könyvelő?", "Hol találok kozmetikumokat?", "Ki foglalkozik marketinggel?"):
