@@ -60,9 +60,12 @@ class NVN_Chatbot {
             return;
         }
         
+        // Load from hosted URL (no local build needed)
+        $script_url = get_option('nvn_chatbot_script_url', 'https://nvnchatbot.lovable.app/nvn-chat.js');
+        
         wp_enqueue_script(
             'nvn-chatbot',
-            NVN_CHATBOT_PLUGIN_URL . 'assets/nvn-chat.js',
+            $script_url,
             array(),
             NVN_CHATBOT_VERSION,
             true
