@@ -40,6 +40,7 @@
 
   function inlineFormat(text) {
     return text
+      .replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1" class="nvn-chat-img" />')
       .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
       .replace(/\*(.*?)\*/g, '<em>$1</em>')
       .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
@@ -112,6 +113,7 @@
       ".nvn-bubble p:last-child { margin-bottom:0 !important; }",
       ".nvn-bubble ul, .nvn-bubble ol { margin:6px 0 6px 18px !important; padding:0 !important; color:inherit !important; }",
       ".nvn-bubble li { margin:0 0 4px 0 !important; padding:0 !important; color:inherit !important; font-size:inherit !important; line-height:inherit !important; list-style:disc !important; }",
+      ".nvn-chat-img { max-width:100% !important; border-radius:10px !important; margin:8px 0 !important; display:block !important; height:auto !important; cursor:pointer !important; }",
       ".nvn-bubble-user { border-radius:18px 18px 4px 18px !important; }",
       ".nvn-bubble-bot { border-radius:18px 18px 18px 4px !important; }",
       ".nvn-time { font-size:10px !important; margin:6px 0 0 0 !important; padding:0 !important; opacity:0.6 !important; color:inherit !important; }",
