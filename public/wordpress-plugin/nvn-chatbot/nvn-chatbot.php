@@ -55,21 +55,7 @@ class NVN_Chatbot {
      * Enqueue chatbot scripts
      */
     public function enqueue_scripts() {
-        // Only load if enabled
-        if (get_option('nvn_chatbot_enabled', '1') !== '1') {
-            return;
-        }
-        
-        // Load from hosted URL (no local build needed)
-        $script_url = get_option('nvn_chatbot_script_url', 'https://nvnchatbot.lovable.app/nvn-chat.js');
-        
-        wp_enqueue_script(
-            'nvn-chatbot',
-            $script_url,
-            array(),
-            NVN_CHATBOT_VERSION,
-            true
-        );
+        // Scripts are now rendered inline in render_chat_widget()
     }
     
     /**
@@ -91,19 +77,26 @@ class NVN_Chatbot {
             return;
         }
         
+        // Inline the widget script to avoid cross-origin loading issues
+        $script_path = NVN_CHATBOT_PLUGIN_DIR . 'assets/nvn-chat.js';
+        if (file_exists($script_path)) {
+            echo '<script>' . file_get_contents($script_path) . '</script>';
+        } else {
+            // Fallback: load from hosted URL
+            echo '<script src="https://nvnchatbot.lovable.app/nvn-chat.js"></script>';
+        }
+        
         ?>
         <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                if (typeof window.NVNChat !== 'undefined') {
-                    window.NVNChat.init({
-                        apiUrl: <?php echo json_encode($api_url); ?>,
-                        apiKey: <?php echo json_encode($api_key); ?>,
-                        position: <?php echo json_encode($position); ?>,
-                        primaryColor: <?php echo json_encode($primary_color); ?>,
-                        accentColor: <?php echo json_encode($accent_color); ?>
-                    });
-                }
-            });
+            if (typeof window.NVNChat !== 'undefined') {
+                window.NVNChat.init({
+                    apiUrl: <?php echo json_encode($api_url); ?>,
+                    apiKey: <?php echo json_encode($api_key); ?>,
+                    position: <?php echo json_encode($position); ?>,
+                    primaryColor: <?php echo json_encode($primary_color); ?>,
+                    accentColor: <?php echo json_encode($accent_color); ?>
+                });
+            }
         </script>
         <?php
     }
