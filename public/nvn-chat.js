@@ -82,6 +82,8 @@
       "@keyframes nvnPulse { 0%,100% { box-shadow: 0 0 0 0 rgba(126,87,194,0.4); } 50% { box-shadow: 0 0 0 12px rgba(126,87,194,0); } }",
       // Strong CSS reset to prevent WordPress theme interference
       "#nvn-chat-widget, #nvn-chat-widget *, #nvn-chat-widget *::before, #nvn-chat-widget *::after { all: revert; box-sizing: border-box !important; }",
+      "#nvn-chat-widget svg { display:inline-block !important; vertical-align:middle !important; width:auto !important; height:auto !important; overflow:visible !important; }",
+      "#nvn-chat-widget svg line, #nvn-chat-widget svg path, #nvn-chat-widget svg polygon, #nvn-chat-widget svg circle, #nvn-chat-widget svg rect { vector-effect:non-scaling-stroke !important; }",
       "#nvn-chat-widget { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important; font-size: 14px !important; line-height: 1.6 !important; -webkit-font-smoothing: antialiased !important; color: #1f2937 !important; direction: ltr !important; text-align: left !important; letter-spacing: normal !important; word-spacing: normal !important; text-transform: none !important; }",
       ".nvn-fab { width:64px !important; height:64px !important; border-radius:50% !important; border:none !important; cursor:pointer !important; display:flex !important; align-items:center !important; justify-content:center !important; transition:transform 0.3s !important; animation: nvnPulse 2s infinite !important; padding:0 !important; margin:0 !important; }",
       ".nvn-fab.nvn-hidden { display:none !important; }",
