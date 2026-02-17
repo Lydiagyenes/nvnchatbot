@@ -199,6 +199,25 @@ const ragKnowledgeBase = `
   - Jóváírjuk a jegyet a következő évre
 - **Elégedettségi garancia:** Ha a helyszínen nem érzed jól magad és **ebédszünetig jelzed**, visszafizetjük!
 
+## 🗺️ HELYSZÍN TÉRKÉP (I. Emelet)
+- **Térkép URL:** https://nvnchatbot.lovable.app/images/terkep-i-emelet.png
+- A térkép az I. emeleti elrendezést mutatja a következő területekkel:
+  - **Görgei előadó terem** (bal oldal, nagy terem)
+  - **Networking terem** (felső sor, bal)
+  - **VIP terem** (felső sor, középbal)
+  - **Well-Being Lounge** (felső sor, közép)
+  - **Relax terem** (felső sor, középjobb)
+  - **Aggházy előadó terem** (felső sor, jobb)
+  - **Kiállítói tér** (központi nagy terület)
+  - **Meetup terem** (alsó sor, közép)
+  - **Lounge** (alsó sor, középjobb)
+  - **Hadik előadó terem** (alsó sor, jobb)
+  - **Előadói backstage** (alsó sor, bal)
+  - **Ruhatár** (bal oldal, lent)
+  - **Reading Lounge** (bal felső sarok)
+  - **Mosdók** (jelölve a térképen ikonokkal)
+- Ha a felhasználó helyszínről, teremről, elrendezésről, térképről, vagy "hol van" típusú kérdést tesz fel, MINDIG oszd meg a térkép linket markdown kép formátumban: ![I. Emelet térkép](https://nvnchatbot.lovable.app/images/terkep-i-emelet.png)
+
 ## 🎤 Program és helyszínek
 
 ### Előadótermek
@@ -1144,6 +1163,11 @@ Ha szállásról vagy közlekedésről kérdeznek, tereld őket a tömegközleke
 ## ⚠️ SHOWNOTES SZABÁLY
 - **SOHA ne ajánld a Shownotes-t programterv követésére!** A Shownotes egy utólagos digitális jegyzetgyűjtemény, nem élő programkövető eszköz.
 - Programtervre vonatkozó kérdéseknél a tudásbázisban lévő programtáblázatot használd!
+
+## 🗺️ TÉRKÉP SZABÁLY
+- Ha a felhasználó helyszínről, teremről, elrendezésről, "hol van", "merre van", "térkép" típusú kérdést tesz fel, **MINDIG** oszd meg a térképet markdown kép formátumban:
+  ![I. Emelet térkép](https://nvnchatbot.lovable.app/images/terkep-i-emelet.png)
+- A kép megjelenik a chatben, így a felhasználó vizuálisan is tájékozódhat!
 
 ## ⚠️ LEGFONTOSABB SZABÁLY: NE TALÁLJ KI SEMMIT!
 - **KIZÁRÓLAG** a tudásbázisban szereplő információkat használd!
