@@ -84,8 +84,10 @@
       "#nvn-chat-widget, #nvn-chat-widget *, #nvn-chat-widget *::before, #nvn-chat-widget *::after { all: revert; box-sizing: border-box !important; }",
       "#nvn-chat-widget { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important; font-size: 14px !important; line-height: 1.6 !important; -webkit-font-smoothing: antialiased !important; color: #1f2937 !important; direction: ltr !important; text-align: left !important; letter-spacing: normal !important; word-spacing: normal !important; text-transform: none !important; }",
       ".nvn-fab { width:64px !important; height:64px !important; border-radius:50% !important; border:none !important; cursor:pointer !important; display:flex !important; align-items:center !important; justify-content:center !important; transition:transform 0.3s !important; animation: nvnPulse 2s infinite !important; padding:0 !important; margin:0 !important; }",
+      ".nvn-fab.nvn-hidden { display:none !important; }",
       ".nvn-fab:hover { transform:scale(1.1) !important; }",
-      ".nvn-window { display:flex !important; flex-direction:column !important; height:520px !important; width:400px !important; max-width:calc(100vw - 2rem) !important; background:#fff !important; border-radius:20px !important; box-shadow:0 12px 48px rgba(0,0,0,0.18) !important; border:none !important; overflow:hidden !important; animation:nvnSlideUp 0.3s ease-out !important; margin:0 !important; padding:0 !important; position:relative !important; }",
+      ".nvn-window { display:none !important; flex-direction:column !important; height:520px !important; width:400px !important; max-width:calc(100vw - 2rem) !important; background:#fff !important; border-radius:20px !important; box-shadow:0 12px 48px rgba(0,0,0,0.18) !important; border:none !important; overflow:hidden !important; animation:nvnSlideUp 0.3s ease-out !important; margin:0 !important; padding:0 !important; position:relative !important; }",
+      ".nvn-window.nvn-visible { display:flex !important; }",
       ".nvn-header { padding:18px 20px !important; display:flex !important; align-items:center !important; justify-content:space-between !important; margin:0 !important; flex-shrink:0 !important; }",
       ".nvn-header-icon { width:42px !important; height:42px !important; border-radius:50% !important; background:rgba(255,255,255,0.2) !important; display:flex !important; align-items:center !important; justify-content:center !important; flex-shrink:0 !important; margin:0 !important; padding:0 !important; }",
       ".nvn-header-title { font-weight:600 !important; color:#fff !important; font-size:17px !important; font-family:'Playfair Display',Georgia,serif !important; margin:0 !important; padding:0 !important; line-height:1.3 !important; }",
@@ -141,7 +143,6 @@
     // Chat window
     this.windowEl = document.createElement('div');
     this.windowEl.className = 'nvn-window';
-    this.windowEl.style.display = 'none';
     this.windowEl.innerHTML = [
       '<div class="nvn-header" style="background:linear-gradient(135deg,' + c.primaryColor + ',' + adjustColor(c.primaryColor, -15) + ')">',
       '  <div style="display:flex;align-items:center;gap:12px">',
@@ -186,15 +187,15 @@
 
   NVNChatWidget.prototype._open = function() {
     this.isOpen = true;
-    this.fab.style.display = 'none';
-    this.windowEl.style.display = 'flex';
+    this.fab.classList.add('nvn-hidden');
+    this.windowEl.classList.add('nvn-visible');
     this.textareaEl.focus();
   };
 
   NVNChatWidget.prototype._close = function() {
     this.isOpen = false;
-    this.fab.style.display = 'flex';
-    this.windowEl.style.display = 'none';
+    this.fab.classList.remove('nvn-hidden');
+    this.windowEl.classList.remove('nvn-visible');
   };
 
   NVNChatWidget.prototype._scrollBottom = function() {
