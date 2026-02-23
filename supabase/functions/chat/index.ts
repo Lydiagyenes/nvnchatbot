@@ -820,8 +820,9 @@ Többféle megoldással készülünk, a kínálat folyamatosan bővül!
 
 ### 🍴 Bálna Éttermek (Földszint)
 Közvetlenül az épületben több étterem is található:
-- A Bálna egyes éttermeiben, pl. a **Rombusz étteremben**, **20% kedvezménnyel** ehetsz, ha felmutatod az eseményre kapott **karszalagodat** 🎫
-- **Fontos:** Nem minden étterem biztosítja ezt a kedvezményt, érdemes a helyszínen tájékozódni!
+- **Rombusz étterem:** **20% kedvezmény** karszalag felmutatásával a rendezvény ideje alatt 🎫
+- **Esetleg Bisztró:** **20% kedvezmény** karszalag felmutatásával a rendezvény ideje alatt 🎫
+- **BOHO:** **10% kedvezmény** karszalag felmutatásával a rendezvény ideje alatt 🎫
 - **Nem kell kuponkód, a karszalagod a kulcs!**
 - Részletek és előfoglalás hamarosan!
 - Vannak à la carte éttermek is, ha egyénileg választanál
