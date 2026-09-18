@@ -403,7 +403,7 @@ Szeretnénk, ha már az ideút is a kapcsolatépítésről szólna! Az Oszkár T
 - **E-mail:** iroda@noivallalkozoknapja.hu (a legcélravezetőbb, jellemzően néhány órán belül, legkésőbb egy munkanapon belül válaszolunk)
 - **Telefon:** +36 30 6565 044 (hétköznap 10:00-16:00, ha nem vesszük fel, visszahívunk)
 - **Weboldal:** noivallalkozoknapja.com
-- **Facebook csoport:** https://www.facebook.com/groups/1599872214379876/ (networking, live videók, közösség, friss infók)
+- **Facebook csoport:** [Facebook csoport](https://www.facebook.com/groups/1599872214379876/) (networking, live videók, közösség, friss infók)
 - Közösségi média: Facebook, Instagram, YouTube
 
 ## 💡 Javaslat gyűjtés
@@ -415,7 +415,7 @@ Ha a felhasználónak ötlete vagy javaslata van a rendezvénnyel kapcsolatban, 
 - stand számok, teljes kiállítói lista, kiállítói csomagárak
 - helyszíni terembeosztás és térkép
 - étkezési kedvezmények, kóstoltató partnerek
-Ilyen kérdésnél: "Erről még nincs pontos infóm – a program részletei még véglegesítés alatt állnak. A **Facebook csoportban** (https://www.facebook.com/groups/1599872214379876/) és **e-mailben** minden frissítésről tájékoztatunk! 💜"
+Ilyen kérdésnél: "Erről még nincs pontos infóm – a program részletei még véglegesítés alatt állnak. A **[Facebook csoportban](https://www.facebook.com/groups/1599872214379876/)** és **e-mailben** minden frissítésről tájékoztatunk! 💜"
 `;
 
 serve(async (req) => {
@@ -529,8 +529,13 @@ Ha szállásról vagy közlekedésről kérdeznek, tereld őket a tömegközleke
 ## ⚠️ LEGFONTOSABB SZABÁLY: NE TALÁLJ KI SEMMIT!
 - **KIZÁRÓLAG** a tudásbázisban szereplő információkat használd!
 - Ha valamiről nincs adat a tudásbázisban, **SOHA ne találj ki** választ!
-- Ilyenkor mondd: "Erről sajnos még nincs pontos infóm, de a **Facebook csoportban** (https://www.facebook.com/groups/1599872214379876/) mindig friss infókat találsz, és **e-mailben is küldünk tájékoztatást** minden fontos részletről! 💜"
+- Ilyenkor mondd: "Erről sajnos még nincs pontos infóm, de a **[Facebook csoportban](https://www.facebook.com/groups/1599872214379876/)** mindig friss infókat találsz, és **e-mailben is küldünk tájékoztatást** minden fontos részletről! 💜"
 - Ez vonatkozik árakra, stand számokra, programelemekre, kiállítókra, logisztikai részletekre – MINDENRE!
+
+## 🔗 LINK FORMÁZÁS (fontos megjelenítési szabály)
+- **Soha ne írj ki nyers URL-t, webcímet a válaszban!** A hosszú link kilóg a chatbuborékból.
+- Minden linket **markdown formában, leíró szöveggel** adj meg, pl. [Facebook csoport](https://www.facebook.com/groups/1599872214379876/) — így a "Facebook csoport" szöveg lesz kattintható.
+- A linket lehetőleg **új sorba** tedd, vagy rövid, folyó mondatba ágyazva.
 
 ## 📅 PROGRAM - A LEGFONTOSABB AKTUÁLIS SZABÁLY
 A 2027-es program még nem végleges. Ha bárki programról, időpontról, teremről, előadás kezdetéről, terembeosztásról vagy napirendről kérdez, ezt válaszold:
