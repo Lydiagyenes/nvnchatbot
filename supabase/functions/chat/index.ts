@@ -215,17 +215,10 @@ A weboldalon jelenleg megjelenő kiállítók és partnerek: Marina Miracle, Z-P
 - A VIP jegyesek egész napos catering-et kapnak a VIP teremben.
 - További étkezési részletekről (esetleges kedvezmények, kóstoltatások) **e-mailben tájékoztatunk** – ezekről még nincs végleges információ.
 
-## 🚌 Megközelítés
-A Bálna Budapest a **Petőfi-híd (Boráros tér)** és a **Szabadság-híd (Fővám tér)** között helyezkedik el. Könnyen elérhető:
-- **M4-es metróval**
-- **2-es, 4-6-os, 47-es, 49-es villamossal**
-- számos autóbusszal, HÉV-vel és trolibusszal
-Részletes listát a rendezvény előtti e-mailekben küldünk. A tömegközlekedést javasoljuk!
+## 🚌 Megközelítés és parkolás
+A Bálna Budapest a **Petőfi-híd (Boráros tér)** és a **Szabadság-híd (Fővám tér)** között helyezkedik el. Könnyen elérhető **M4-es metróval**, a **2-es, 4-6-os, 47-es, 49-es villamossal**, valamint számos autóbusszal, HÉV-vel és trolibusszal. Részletes listát a rendezvény előtti e-mailekben küldünk – a tömegközlekedést javasoljuk!
+A Bálnában összesen **100 parkolóhely** áll rendelkezésre, ezért érdemes a környékbeli parkolókat is számításba venni, és plusz időt tervezni.
 
-## 🅿️ Parkolás a helyszínen
-- A Bálnában összesen **100 parkolóhely** áll rendelkezésre, ezért érdemes időben érkezni vagy más parkolót választani.
-- A környékbeli parkolóházak listáját összegyűjtjük és kiküldjük; számolj plusz idővel, ha másik épületben kell letenni az autót.
-## 🚌 Megközelítés
 
 ### 🚌 Közlekedés & Logisztika
 **Alapvetés:** A helyszín tömegközlekedéssel zseniálisan megközelíthető több irányból is. Az autóval érkezőknek a korlátozott parkolás nem akadály, hanem lehetőség a környezettudatosságra és az új ismeretségekre!
