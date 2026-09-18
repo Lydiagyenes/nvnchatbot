@@ -48,9 +48,9 @@ const getPricingInfo = () => {
 
   // Akciós árak a bevezető időszakban (2026. október 20. éjfélig)
   const introPrices = {
-    basic: { original: "49.900 Ft + áfa", discounted: "21.900 Ft + áfa", pairPerPerson: "18.615 Ft + áfa/fő" },
-    premium: { original: "59.900 Ft + áfa", discounted: "26.900 Ft + áfa", pairPerPerson: "22.865 Ft + áfa/fő" },
-    vip: { original: "99.900 Ft + áfa", discounted: "74.900 Ft + áfa", pairPerPerson: "68.150 Ft + áfa/fő" },
+    basic: { original: "49.900 Ft + áfa", discounted: "21.900 Ft + áfa" },
+    premium: { original: "59.900 Ft + áfa", discounted: "26.900 Ft + áfa" },
+    vip: { original: "99.900 Ft + áfa", discounted: "74.900 Ft + áfa" },
   };
 
   const listPrices = {
@@ -132,11 +132,11 @@ online jelenlét · AI és modern eszközök · social media · ügyfélszerzés
 Teljes árak: BASIC **49.900 Ft + áfa**, PRÉMIUM **59.900 Ft + áfa**, VIP **99.900 Ft + áfa**.
 
 **Bevezető akciós árak (2026. október 20. éjfélig):**
-| Jegytípus | Teljes ár | Akciós ár | Páros jegy (+15% kedvezmény) |
-|---|---|---|---|
-| BASIC | 49.900 Ft + áfa | **21.900 Ft + áfa** | 18.615 Ft + áfa/fő |
-| PRÉMIUM (legnépszerűbb) | 59.900 Ft + áfa | **26.900 Ft + áfa** | 22.865 Ft + áfa/fő |
-| VIP (legjobb ár-érték) | 99.900 Ft + áfa | **74.900 Ft + áfa** | 68.150 Ft + áfa/fő |
+| Jegytípus | Teljes ár | Akciós ár |
+|---|---|---|
+| BASIC | 49.900 Ft + áfa | **21.900 Ft + áfa** |
+| PRÉMIUM (legnépszerűbb) | 59.900 Ft + áfa | **26.900 Ft + áfa** |
+| VIP (legjobb ár-érték) | 99.900 Ft + áfa | **74.900 Ft + áfa** |
 
 Az akciós időszak lejárta után **mindig a weboldalon látható aktuális árat** kell nézni – a rendszerprompt tetején szereplő aktuális árinformációt használd, és ha bizonytalan, irányíts a noivallalkozoknapja.com oldalra!
 
@@ -161,7 +161,7 @@ Az akciós időszak lejárta után **mindig a weboldalon látható aktuális ár
 - Számos extra ajándék a Welcome csomagban
 
 ## 👥 Csoportos és mennyiségi kedvezmény
-A rendelési űrlap automatikusan érvényesíti (már páros jegytől):
+A rendelési űrlap a darabszám alapján automatikusan érvényesíti:
 - 2–5 fő: **-15%**
 - 6–10 fő: **-20%**
 - 11–15 fő: **-25%**
@@ -203,10 +203,8 @@ Csoportos vásárlásnál a QR-kódos jegyeket a vásárló kapja meg és továb
 - A program részletei még szervezés alatt.
 
 ## 🎁 Extra programok jegytulajdonosoknak
-- **Business Piknik – július 18., Városliget:** kötetlen nyári program, meghívott előadók, könnyed networking.
 - **Évzáró esemény – december 3.**
-- A nyitónapi / bevezető akcióban vásárlók ajándékba kapnak egy **Amazing AI kurzuson** való részvételt (19.900 Ft + áfa értékben), és bekerülnek a több százezer forint összértékű **sorsolásba**.
-- A korán vásárlók egy **kérdőívben** elmondhatják, milyen témákat és előadókat szeretnének – így alakíthatják a programot.
+- A jegyvásárlók egy **kérdőívben** elmondhatják, milyen témákat és előadókat szeretnének – így alakíthatják a programot.
 
 ## 🏪 Kiállítók
 A weboldalon jelenleg megjelenő kiállítók és partnerek: Marina Miracle, Z-Press Kiadó, NaturCleaning, DotRoll, Rewa, doTERRA, Gál Kristóf, Számlázz.hu, Perneczky Andrea, Gift House, WEXO, Lukovics Dóra, Berlitz, MYROBALAN, BEMER, BRIDGE BUDAPEST.
@@ -487,9 +485,9 @@ serve(async (req) => {
 - **Mai dátum: ${today}**
 - **Aktuális árperiódus: ${pricingInfo.currentPeriod.discount}** (${pricingInfo.currentPeriod.label})
 - **Aktuálisan érvényes jegyárak:**
-  - BASIC: ${pricingInfo.currentPrices.basic.original}${pricingInfo.introActive ? ` helyett **${pricingInfo.currentPrices.basic.discounted}** (páros: ${pricingInfo.currentPrices.basic.pairPerPerson})` : ""}
-  - PRÉMIUM: ${pricingInfo.currentPrices.premium.original}${pricingInfo.introActive ? ` helyett **${pricingInfo.currentPrices.premium.discounted}** (páros: ${pricingInfo.currentPrices.premium.pairPerPerson})` : ""}
-  - VIP: ${pricingInfo.currentPrices.vip.original}${pricingInfo.introActive ? ` helyett **${pricingInfo.currentPrices.vip.discounted}** (páros: ${pricingInfo.currentPrices.vip.pairPerPerson})` : ""}
+  - BASIC: ${pricingInfo.currentPrices.basic.original}${pricingInfo.introActive ? ` helyett **${pricingInfo.currentPrices.basic.discounted}**` : ""}
+  - PRÉMIUM: ${pricingInfo.currentPrices.premium.original}${pricingInfo.introActive ? ` helyett **${pricingInfo.currentPrices.premium.discounted}**` : ""}
+  - VIP: ${pricingInfo.currentPrices.vip.original}${pricingInfo.introActive ? ` helyett **${pricingInfo.currentPrices.vip.discounted}**` : ""}
 ${pricingInfo.introActive ? "- A bevezető akció **2026. október 20. éjfélig** tart!" : "- A bevezető akció lejárt: az aktuális akciós árakért irányítsd a noivallalkozoknapja.com oldalra, és ne találj ki kedvezményt!"}
 - Mindig a PONTOS aktuális árakat mondd!
 
