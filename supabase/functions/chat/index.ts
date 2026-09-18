@@ -87,7 +87,9 @@ const ragKnowledgeBase = `
 - **Email:** iroda@noivallalkozoknapja.hu
 - **Telefon:** +36 30 6565 044 (hétköznapokon 10:00-16:00)
 - **Várható létszám:** 2000+ résztvevő
-- **3 párhuzamos előadóterem**
+- **3 párhuzamos előadóterem:** Görgei terem, Hadik terem, Aggházy terem
+- **Relax terem:** a visszajelzések alapján idén kevesebb programmal, megőrizve a relax jellegét. Ami biztosan lesz: **arcjóga, csikung, hangfürdő**. (A hangfürdő szakértőjét NE nevezd meg – még egyeztetés alatt!)
+- **Snack & Taste Lounge (Alvinczy terem):** itt lesznek a kóstoltatók, és itt **egész nap díjmentes a helyben fogyasztás**.
 - **Magyarország legnagyobb** célzottan vállalkozó nőknek szóló eseménye
 - Egész napos vállalkozói élmény: előadások, workshopok, networking, kiállítói tér
 - **Főszervező / megálmodó:** Mihalik Gyöngyvér (a Női Vállalkozók Napja alapítója)
@@ -95,7 +97,7 @@ const ragKnowledgeBase = `
 ## 📅 PROGRAM - MÉG VÉGLEGESÍTÉS ALATT (KRITIKUS SZABÁLY)
 **A program részletei még véglegesítés alatt állnak. A pontos időpontokat és helyszíneket később tesszük közzé.**
 - Ha bárki konkrét programról, idősávról, teremről, előadás kezdetéről kérdez, **PONTOSAN ezt a mondatot** használd, és semmiképp ne találj ki időpontot vagy termet!
-- Azt elmondhatod, hogy **3 párhuzamos előadóteremben** lesznek előadások 8:00 és 18:30 között, és kik a már megerősített előadók.
+- Azt elmondhatod, hogy **3 párhuzamos előadóteremben** (Görgei, Hadik, Aggházy terem) lesznek előadások 8:00 és 18:30 között, és kik a már megerősített előadók.
 - Minden frissítésről **e-mailben** és a **Facebook csoportban** tájékoztatunk, illetve a weboldalon folyamatosan frissül a program.
 
 ## 🎤 Már megerősített előadók (a lista folyamatosan bővül)
@@ -200,18 +202,24 @@ Csoportos vásárlásnál a QR-kódos jegyeket a vásárló kapja meg és továb
 - **Minden NVN jeggyel rendelkező** számára nyitott, jegytípustól függetlenül.
 - Limitált férőhely: **maximum 300 fő**, jelentkezés regisztrációs sorrendben.
 - A regisztrációhoz és a részletes programhoz **kérdőívet küldünk e-mailben** a rendezvény előtt.
-- A program részletei még szervezés alatt.
+- A program részletei még szervezés alatt – **a részletekkel februárban érkezünk**.
 
 ## 🎁 Extra programok jegytulajdonosoknak
 - **Évzáró esemény – december 3.**
 - A jegyvásárlók egy **kérdőívben** elmondhatják, milyen témákat és előadókat szeretnének – így alakíthatják a programot.
 
+## 🥐 Business Brunch
+- Nem kell márciusig várni a kapcsolatépítésre: **folyamatosan szervezünk Business Brunch eseményeket** szuper délelőttökkel.
+- Az aktuális dátumról és programról itt tájékozódhat: **[Business Brunch oldal](https://noivallalkozoknapja.com/step/business_brunch/)**
+
 ## 🏪 Kiállítók
+- **70+ kiállító** lesz a rendezvényen – akiknek a logója már látható a noivallalkozoknapja.com oldalon, ők biztosan velünk tartanak.
 A weboldalon jelenleg megjelenő kiállítók és partnerek: Marina Miracle, Z-Press Kiadó, NaturCleaning, DotRoll, Rewa, doTERRA, Gál Kristóf, Számlázz.hu, Perneczky Andrea, Gift House, WEXO, Lukovics Dóra, Berlitz, MYROBALAN, BEMER, BRIDGE BUDAPEST.
 - **A kiállítói lista még bővül, és stand számok MÉG NINCSENEK** – soha ne találj ki stand számot vagy kiállítót!
 
 ## 📧 Kiállítói jelentkezés
-- Írj e-mailt az **iroda@noivallalkozoknapja.hu** címre: mutatkozz be, írj a vállalkozásodról, szolgáltatásodról, és küldd el a weboldalad linkjét.
+- Ha kiállítói megjelenés érdekli, írj e-mailt az **iroda@noivallalkozoknapja.hu** címre: mutatkozz be, írj a vállalkozásodról, szolgáltatásodról, és küldd el a weboldalad linkjét.
+- Emellett oszd meg vele ezt az oldalt is: **[Kiállítói ajánlat](https://noivallalkozoknapja.com/noi-vallalkozok-napja-kiallitoi-ajanlat/)**
 - A szabad helyek és egyéb tényezők függvényében írásban küldjük a lehetőségeket.
 - **Kiállítói árakat NE mondj**, mert a 2027-es csomagárak nincsenek nyilvánosan közzétéve – irányíts az e-mail címre!
 
@@ -221,10 +229,12 @@ A weboldalon jelenleg megjelenő kiállítók és partnerek: Marina Miracle, Z-P
 - Jelentkezés: **iroda@noivallalkozoknapja.hu**
 
 ## 🍽️ Étkezés
-- A Bálna Budapestben számtalan étterem található, de ezek **à la carte** éttermek, így hosszabb lehet a kiszolgálási idő.
-- A helyszínen lesz: **kávé, víz, édes és sós péksütemény a kiállítói standoknál**, valamint **külön büfé szendvicsekkel** a helyszíni catering partnertől.
+- **Fizetős büfé** lesz a rendezvény térben, a helyszíni catering partnertől. (A pontos helyét még NE mondd – egyeztetés alatt áll!)
+- A Bálna Budapestben számtalan étterem található, ezek **à la carte** éttermek – ahol a **karszalag felmutatásával kedvezményes lehetőségek** várják a résztvevőket.
+- A helyszínen lesz: **kávé, víz, édes és sós péksütemény a kiállítói standoknál**.
+- **Számtalan kóstoltatóval** készülünk: ha finom snackekre, édes falatokra vagy különlegesebb teákra, kávékra vágynának, a **Snack & Taste Lounge-ban (Alvinczy terem)** egész nap díjmentes a helyben fogyasztás.
 - A VIP jegyesek egész napos catering-et kapnak a VIP teremben.
-- További étkezési részletekről (esetleges kedvezmények, kóstoltatások) **e-mailben tájékoztatunk** – ezekről még nincs végleges információ.
+- További étkezési részletekről **e-mailben tájékoztatunk**.
 
 ## 🚌 Megközelítés és parkolás
 A Bálna Budapest a **Petőfi-híd (Boráros tér)** és a **Szabadság-híd (Fővám tér)** között helyezkedik el. Könnyen elérhető **M4-es metróval**, a **2-es, 4-6-os, 47-es, 49-es villamossal**, valamint számos autóbusszal, HÉV-vel és trolibusszal. Részletes listát a rendezvény előtti e-mailekben küldünk – a tömegközlekedést javasoljuk!
@@ -540,7 +550,7 @@ Ha szállásról vagy közlekedésről kérdeznek, tereld őket a tömegközleke
 ## 📅 PROGRAM - A LEGFONTOSABB AKTUÁLIS SZABÁLY
 A 2027-es program még nem végleges. Ha bárki programról, időpontról, teremről, előadás kezdetéről, terembeosztásról vagy napirendről kérdez, ezt válaszold:
 "**A program részletei még véglegesítés alatt állnak. A pontos időpontokat és helyszíneket később tesszük közzé.**"
-- Ehhez hozzáteheted, hogy a rendezvény **2027. március 18-án 8:00–18:30 között**, a **Bálna Budapestben**, **3 párhuzamos előadóteremben** zajlik, és felsorolhatod a már megerősített előadókat.
+- Ehhez hozzáteheted, hogy a rendezvény **2027. március 18-án 8:00–18:30 között**, a **Bálna Budapestben**, **3 párhuzamos előadóteremben (Görgei, Hadik, Aggházy terem)** zajlik, és felsorolhatod a már megerősített előadókat.
 - **SOHA ne adj meg idősávot, termet vagy előadáscímet** – ilyen adat még nem létezik!
 - Ha előadóról kérdeznek: mondd el a nevét és a szakterületét, de az időpontot NE találd ki.
 - Minden frissítésről **e-mailben** és a **Facebook csoportban** tájékoztatunk.
