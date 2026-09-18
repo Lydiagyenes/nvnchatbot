@@ -109,6 +109,19 @@ const ragKnowledgeBase = `
 - **Mihalik Gyöngyvér** – a Női Vállalkozók Napja megálmodója, alapítója és főszervezője
 - **Kádár Réka** – automatizált ügyfélszerzés specialista, Marketingboszik
 - **Miller Szilvia** – automatizált ügyfélszerzés specialista, Marketingboszik
+- **Mester Emese** – klinikai fogászati higiénikus, egészségkommunikátor
+- **Polgár Enikő** – nemzetközi arcjóga oktató
+- **Piroska Tímea** – pszichológus, coach, a New Life Lab megálmodója, az Antener Kft. és a Z-press Kiadó ügyvezető igazgatója
+- **Czopkó Nóra** – a nap házigazdája, pszichológus, sminktréner
+- **Dr. Berczik Krisztina** – klinikai szakpszichológus, pszichoterapeuta
+- **Szente Mónika** – longevity mentor
+- **Schubauer Krisztina** – Work.Happy alapító, szervezeti kultúra designer
+- **Tűzkő Dorina** – Bridge Legacy Lab programvezető
+- **Dr. Borsos Dorottya** – Edisonplatform vezető
+- **Kenyhercz Kinga** – Generali Biztosító kommunikációs és rendezvényszervezési szakértő, a The Human Safety Net magyarországi programvezetője
+- **Dr. Ifi-Valde Orsolya** – Paloznaki Jazzpiknik alapító, antikorrupciós szakjogász
+- **Dr. Szilágyi Judit** – ComeAndGrow ügyvezető
+- **Okvátovity Dóra** – Fajszi Paprika Manufaktúra ügyvezető
 - További előadók bejelentése folyamatban.
 - **Előadókhoz tartozó időpont és terem MÉG NINCS – soha ne találj ki ilyet!**
 
