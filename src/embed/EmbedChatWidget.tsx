@@ -427,13 +427,21 @@ const EmbedChatWidget = ({ config }: { config: NVNChatConfig }) => {
     if (isUser) {
       return <span style={{ whiteSpace: "pre-wrap" }}>{content}</span>;
     }
+    // Ensure external links always open in a new tab
+    const ensureNewTab = (e: React.MouseEvent<HTMLSpanElement>) => {
+      const anchor = (e.target as HTMLElement).closest?.("a[href]");
+      if (anchor) {
+        anchor.setAttribute("target", "_blank");
+        anchor.setAttribute("rel", "noopener noreferrer");
+      }
+    };
     // Basic markdown: bold, links, line breaks
     const html = content
       .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
       .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank" rel="noopener" style="color:#ffd700;text-decoration:underline;word-break:break-word;overflow-wrap:anywhere">$1</a>')
       .replace(/(^|[\s>])(https?:\/\/[^\s<)"]+)/g, '$1<a href="$2" target="_blank" rel="noopener" style="color:#ffd700;text-decoration:underline;word-break:break-word;overflow-wrap:anywhere">$2</a>')
       .replace(/\n/g, "<br/>");
-    return <span dangerouslySetInnerHTML={{ __html: html }} />;
+    return <span onClick={ensureNewTab} dangerouslySetInnerHTML={{ __html: html }} />;
   };
 
   if (!isOpen) {

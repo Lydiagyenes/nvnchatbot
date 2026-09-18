@@ -220,6 +220,14 @@
     this.messagesEl.scrollTop = this.messagesEl.scrollHeight;
   };
 
+  NVNChatWidget.prototype._fixLinks = function(bubble) {
+    var links = bubble.querySelectorAll('a[href]');
+    for (var i = 0; i < links.length; i++) {
+      links[i].setAttribute('target', '_blank');
+      links[i].setAttribute('rel', 'noopener noreferrer');
+    }
+  };
+
   NVNChatWidget.prototype._addMessage = function(content, isUser) {
     // Remove empty state
     var empty = this.messagesEl.querySelector('.nvn-empty');
@@ -236,6 +244,7 @@
       bubble.textContent = content;
     } else {
       bubble.innerHTML = renderMarkdown(content);
+      this._fixLinks(bubble);
     }
 
     var time = document.createElement('div');
@@ -330,6 +339,7 @@
               } else {
                 var timeEl = botBubble.querySelector('.nvn-time');
                 botBubble.innerHTML = renderMarkdown(assistantContent);
+                self._fixLinks(botBubble);
                 if (timeEl) botBubble.appendChild(timeEl);
                 self._scrollBottom();
               }
