@@ -39,11 +39,25 @@
   }
 
   function inlineFormat(text) {
-    return text
-      .replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1" class="nvn-chat-img" />')
+    var placeholders = [];
+    // Convert existing markdown links/images first and protect them with placeholders
+    text = text.replace(/!\[(.*?)\]\((.*?)\)/g, function(m, alt, url) {
+      placeholders.push('<img src="' + url + '" alt="' + alt + '" class="nvn-chat-img" />');
+      return '\u0000' + (placeholders.length - 1) + '\u0000';
+    });
+    text = text.replace(/\[(.*?)\]\((.*?)\)/g, function(m, label, url) {
+      placeholders.push('<a href="' + url + '" target="_blank" rel="noopener">' + label + '</a>');
+      return '\u0000' + (placeholders.length - 1) + '\u0000';
+    });
+    // Linkify remaining bare URLs (so nothing renders as an unclickable long text)
+    text = text.replace(/(^|[\s(])(https?:\/\/[^\s<)"]+)/g, function(m, pre, url) {
+      placeholders.push('<a href="' + url + '" target="_blank" rel="noopener">' + url + '</a>');
+      return pre + '\u0000' + (placeholders.length - 1) + '\u0000';
+    });
+    text = text
       .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-      .replace(/\*(.*?)\*/g, '<em>$1</em>')
-      .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+      .replace(/\*(.*?)\*/g, '<em>$1</em>');
+    return text.replace(/\u0000(\d+)\u0000/g, function(m, i) { return placeholders[+i]; });
   }
 
   // ============= Main Widget =============
@@ -105,7 +119,8 @@
       ".nvn-msg-user { justify-content:flex-end !important; }",
       ".nvn-msg-bot { justify-content:flex-start !important; }",
       ".nvn-bubble { max-width:82% !important; padding:12px 16px !important; font-size:14px !important; line-height:1.65 !important; box-shadow:0 2px 10px rgba(0,0,0,0.08) !important; color:#fff !important; word-wrap:break-word !important; overflow-wrap:break-word !important; margin:0 !important; text-align:left !important; }",
-      ".nvn-bubble a { color:#ffd700 !important; text-decoration:underline !important; }",
+      ".nvn-bubble a { color:#ffd700 !important; text-decoration:underline !important; word-break:break-word !important; overflow-wrap:anywhere !important; display:inline !important; max-width:100% !important; }",
+      ".nvn-bubble a:not(:last-child) { margin-bottom:2px !important; }",
       ".nvn-bubble strong { font-weight:700 !important; color:inherit !important; }",
       ".nvn-bubble em { font-style:italic !important; color:inherit !important; }",
       ".nvn-bubble p { margin:0 0 8px 0 !important; padding:0 !important; color:inherit !important; font-size:inherit !important; line-height:inherit !important; }",

@@ -548,7 +548,7 @@ A 2027-es program még nem végleges. Ha bárki programról, időpontról, terem
 ## 🏪 KIÁLLÍTÓK SZABÁLYAI
 - Csak a tudásbázisban szereplő kiállítókat említsd, és mondd el, hogy a lista folyamatosan bővül.
 - **Stand számok még nincsenek** – soha ne találj ki standhelyet vagy elhelyezkedést!
-- Ha nincs releváns találat: "Erről még nincs infóm – a kiállítói lista folyamatosan bővül. Nézz be a **Facebook csoportba** (https://www.facebook.com/groups/1599872214379876/), vagy várd az **e-mailes tájékoztatót**! 💜"
+- Ha nincs releváns találat: "Erről még nincs infóm – a kiállítói lista folyamatosan bővül. Nézz be a **[Facebook csoportba](https://www.facebook.com/groups/1599872214379876/)**, vagy várd az **e-mailes tájékoztatót**! 💜"
 
 ## 🏢 KIÁLLÍTÓNAK LENNI
 Ha valaki kiállítóként venne részt:
