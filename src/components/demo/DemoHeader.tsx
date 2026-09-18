@@ -4,7 +4,7 @@ export const DemoHeader = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-3">
         <div className="flex items-center gap-4">
           <span className="font-semibold text-accent-foreground text-sm text-center md:text-left">
-            A JEGYÉRTÉKESÍTÉS ELINDULT: BEVZETŐ AKCIÓ 56% KEDVEZMÉNNYEL!
+            A JEGYÉRTÉKESÍTÉS ELINDULT: BEVEZETŐ AKCIÓ 56% KEDVEZMÉNNYEL!
           </span>
         </div>
         <div className="flex items-center gap-3">
