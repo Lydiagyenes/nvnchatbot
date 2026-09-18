@@ -74,9 +74,8 @@ const getPricingInfo = () => {
 const ragKnowledgeBase = `
 # Női Vállalkozók Napja 2026 - Teljes Tudásbázis
 
-## 🗓️ AKTUÁLIS DÁTUM ÉS ÁRINFORMÁCIÓ
-- **Mai dátum:** ${getCurrentDate().toLocaleDateString('hu-HU', { year: 'numeric', month: 'long', day: 'numeric' })}
-- **Aktuális kedvezmény:** ${getPricingInfo().currentPeriod.discount} (${getPricingInfo().currentPeriod.label})
+## 🗓️ ÁRINFORMÁCIÓ
+(A mai dátum és az aktuális kedvezmény a rendszerprompt tetején szerepel - mindig azt használd!)
 - **Fontos határidők:**
   - November 23-ig: 52% kedvezmény
   - December 11-ig: 48% kedvezmény  
