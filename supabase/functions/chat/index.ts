@@ -87,7 +87,9 @@ const ragKnowledgeBase = `
 - **Email:** iroda@noivallalkozoknapja.hu
 - **Telefon:** +36 30 6565 044 (hétköznapokon 10:00-16:00)
 - **Várható létszám:** 2000+ résztvevő
-- **3 párhuzamos előadóterem**
+- **3 párhuzamos előadóterem:** Görgei terem, Hadik terem, Aggházy terem
+- **Relax terem:** a visszajelzések alapján idén kevesebb programmal, megőrizve a relax jellegét. Ami biztosan lesz: **arcjóga, csikung, hangfürdő**. (A hangfürdő szakértőjét NE nevezd meg – még egyeztetés alatt!)
+- **Snack & Taste Lounge (Alvinczy terem):** itt lesznek a kóstoltatók, és itt **egész nap díjmentes a helyben fogyasztás**.
 - **Magyarország legnagyobb** célzottan vállalkozó nőknek szóló eseménye
 - Egész napos vállalkozói élmény: előadások, workshopok, networking, kiállítói tér
 - **Főszervező / megálmodó:** Mihalik Gyöngyvér (a Női Vállalkozók Napja alapítója)
@@ -95,7 +97,7 @@ const ragKnowledgeBase = `
 ## 📅 PROGRAM - MÉG VÉGLEGESÍTÉS ALATT (KRITIKUS SZABÁLY)
 **A program részletei még véglegesítés alatt állnak. A pontos időpontokat és helyszíneket később tesszük közzé.**
 - Ha bárki konkrét programról, idősávról, teremről, előadás kezdetéről kérdez, **PONTOSAN ezt a mondatot** használd, és semmiképp ne találj ki időpontot vagy termet!
-- Azt elmondhatod, hogy **3 párhuzamos előadóteremben** lesznek előadások 8:00 és 18:30 között, és kik a már megerősített előadók.
+- Azt elmondhatod, hogy **3 párhuzamos előadóteremben** (Görgei, Hadik, Aggházy terem) lesznek előadások 8:00 és 18:30 között, és kik a már megerősített előadók.
 - Minden frissítésről **e-mailben** és a **Facebook csoportban** tájékoztatunk, illetve a weboldalon folyamatosan frissül a program.
 
 ## 🎤 Már megerősített előadók (a lista folyamatosan bővül)
@@ -200,11 +202,15 @@ Csoportos vásárlásnál a QR-kódos jegyeket a vásárló kapja meg és továb
 - **Minden NVN jeggyel rendelkező** számára nyitott, jegytípustól függetlenül.
 - Limitált férőhely: **maximum 300 fő**, jelentkezés regisztrációs sorrendben.
 - A regisztrációhoz és a részletes programhoz **kérdőívet küldünk e-mailben** a rendezvény előtt.
-- A program részletei még szervezés alatt.
+- A program részletei még szervezés alatt – **a részletekkel februárban érkezünk**.
 
 ## 🎁 Extra programok jegytulajdonosoknak
 - **Évzáró esemény – december 3.**
 - A jegyvásárlók egy **kérdőívben** elmondhatják, milyen témákat és előadókat szeretnének – így alakíthatják a programot.
+
+## 🥐 Business Brunch
+- Nem kell márciusig várni a kapcsolatépítésre: **folyamatosan szervezünk Business Brunch eseményeket** szuper délelőttökkel.
+- Az aktuális dátumról és programról itt tájékozódhat: **[Business Brunch oldal](https://noivallalkozoknapja.com/step/business_brunch/)**
 
 ## 🏪 Kiállítók
 A weboldalon jelenleg megjelenő kiállítók és partnerek: Marina Miracle, Z-Press Kiadó, NaturCleaning, DotRoll, Rewa, doTERRA, Gál Kristóf, Számlázz.hu, Perneczky Andrea, Gift House, WEXO, Lukovics Dóra, Berlitz, MYROBALAN, BEMER, BRIDGE BUDAPEST.
