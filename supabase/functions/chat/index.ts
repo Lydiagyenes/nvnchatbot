@@ -74,9 +74,8 @@ const getPricingInfo = () => {
 const ragKnowledgeBase = `
 # Női Vállalkozók Napja 2026 - Teljes Tudásbázis
 
-## 🗓️ AKTUÁLIS DÁTUM ÉS ÁRINFORMÁCIÓ
-- **Mai dátum:** ${getCurrentDate().toLocaleDateString('hu-HU', { year: 'numeric', month: 'long', day: 'numeric' })}
-- **Aktuális kedvezmény:** ${getPricingInfo().currentPeriod.discount} (${getPricingInfo().currentPeriod.label})
+## 🗓️ ÁRINFORMÁCIÓ
+(A mai dátum és az aktuális kedvezmény a rendszerprompt tetején szerepel - mindig azt használd!)
 - **Fontos határidők:**
   - November 23-ig: 52% kedvezmény
   - December 11-ig: 48% kedvezmény  
@@ -1320,60 +1319,61 @@ Ha a felhasználó olyan kérdést tesz fel, amire nincs válasz a tudásbázisb
       );
     }
 
-    // Collect full response for logging
-    const reader = response.body?.getReader();
+    // Valódi streamelés: azonnal továbbítjuk a darabokat, közben gyűjtjük a teljes választ naplózáshoz
     const decoder = new TextDecoder();
     let fullBotResponse = "";
-    const chunks: Uint8Array[] = [];
+    let sseBuffer = "";
 
-    if (reader) {
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-        
-        chunks.push(value);
-        const text = decoder.decode(value, { stream: true });
-        
-        // Parse SSE to extract content
-        const lines = text.split('\n');
-        for (const line of lines) {
-          if (line.startsWith('data: ') && !line.includes('[DONE]')) {
-            try {
-              const json = JSON.parse(line.slice(6));
-              const content = json.choices?.[0]?.delta?.content;
-              if (content) {
-                fullBotResponse += content;
-              }
-            } catch {
-              // Ignore parse errors for partial chunks
-            }
+    const logChat = () => {
+      supabase
+        .from('chat_logs')
+        .insert({
+          session_id: chatSessionId,
+          user_message: userMessageContent,
+          bot_response: fullBotResponse,
+        })
+        .then(({ error }) => {
+          if (error) console.error("Failed to log chat:", error);
+        });
+    };
+
+    const transform = new TransformStream<Uint8Array, Uint8Array>({
+      transform(chunk, controller) {
+        controller.enqueue(chunk);
+        sseBuffer += decoder.decode(chunk, { stream: true });
+        let idx: number;
+        while ((idx = sseBuffer.indexOf("\n")) !== -1) {
+          const line = sseBuffer.slice(0, idx).trim();
+          sseBuffer = sseBuffer.slice(idx + 1);
+          if (!line.startsWith("data: ") || line.includes("[DONE]")) continue;
+          try {
+            const content = JSON.parse(line.slice(6))?.choices?.[0]?.delta?.content;
+            if (content) fullBotResponse += content;
+          } catch {
+            // részleges JSON - kihagyjuk
           }
         }
-      }
+      },
+      flush() {
+        logChat();
+      },
+    });
+
+    if (!response.body) {
+      logChat();
+      return new Response(
+        JSON.stringify({ error: "Nem érkezett válasz az AI szolgáltatástól." }),
+        { status: 502, headers: { ...corsHeaders, "Content-Type": "application/json" } }
+      );
     }
 
-    // Log to database (async, don't wait)
-    supabase
-      .from('chat_logs')
-      .insert({
-        session_id: chatSessionId,
-        user_message: userMessageContent,
-        bot_response: fullBotResponse,
-      })
-      .then(({ error }) => {
-        if (error) console.error("Failed to log chat:", error);
-      });
-
-    // Reconstruct the stream for the response
-    const combinedChunks = new Uint8Array(chunks.reduce((acc, chunk) => acc + chunk.length, 0));
-    let offset = 0;
-    for (const chunk of chunks) {
-      combinedChunks.set(chunk, offset);
-      offset += chunk.length;
-    }
-
-    return new Response(combinedChunks, {
-      headers: { ...corsHeaders, "Content-Type": "text/event-stream" },
+    return new Response(response.body.pipeThrough(transform), {
+      headers: {
+        ...corsHeaders,
+        "Content-Type": "text/event-stream",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+      },
     });
   } catch (error) {
     console.error("Chat function error:", error);
