@@ -5,7 +5,7 @@ export const DemoNav = () => {
         <div className="font-display text-3xl font-bold text-primary-foreground tracking-wide">
           nvn
         </div>
-        <button className="text-primary-foreground hover:text-accent transition-colors font-medium">
+        <button className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-6 py-2 rounded-full transition-colors text-sm">
           Jegyvásárlás
         </button>
       </div>

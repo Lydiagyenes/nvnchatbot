@@ -1,16 +1,16 @@
 export const DemoHeader = () => {
   return (
     <header className="gradient-accent py-3 px-6">
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-3">
         <div className="flex items-center gap-4">
-          <span className="font-semibold text-accent-foreground text-sm">
-            SZEREZD BE A JEGYED AKÁR 43% KEDVEZMÉNNYEL!
+          <span className="font-semibold text-accent-foreground text-sm text-center md:text-left">
+            A JEGYÉRTÉKESÍTÉS ELINDULT: BEVEZETŐ AKCIÓ 56% KEDVEZMÉNNYEL!
           </span>
         </div>
         <div className="flex items-center gap-3">
           <div className="flex gap-2">
             {[
-              { value: "01", label: "nap" },
+              { value: "32", label: "nap" },
               { value: "08", label: "óra" },
               { value: "46", label: "perc" },
               { value: "09", label: "msp." },

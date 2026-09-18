@@ -6,7 +6,7 @@ import { ChatWidget } from "@/components/chat/ChatWidget";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen" style={{ background: "hsl(260 55% 12%)" }}>
       {/* Demo Site Layout - Will be removed for WordPress plugin */}
       <DemoHeader />
       <DemoNav />
