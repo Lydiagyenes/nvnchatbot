@@ -198,11 +198,9 @@ Csoportos vásárlásnál a QR-kódos jegyeket a vásárló kapja meg és továb
 - A feltöltéstől számítva **2 évig** férsz hozzá.
 
 ## 🎉 Networking Before Party
-- **2027. március 17., este 18:00-tól, az Up Hotelben.**
-- **Minden NVN jeggyel rendelkező** számára nyitott, jegytípustól függetlenül.
-- Limitált férőhely: **maximum 300 fő**, jelentkezés regisztrációs sorrendben.
-- A regisztrációhoz és a részletes programhoz **kérdőívet küldünk e-mailben** a rendezvény előtt.
-- A program részletei még szervezés alatt – **a részletekkel februárban érkezünk**.
+- **Before Party lesz** a rendezvény előtti estén (2027. március 17.), minden jegytípussal részt vehetsz rajta.
+- **FONTOS: A Before Party részletei még nincsenek véglegesítve – erről hamarosan lesznek infók!**
+- Ha a felhasználó részletekre kérdez (helyszín, pontos időpont, program, jelentkezés): mondd, hogy **hamarosan megosztjuk a részleteket**, a **[Facebook csoportban](https://www.facebook.com/groups/1599872214379876/)** és **e-mailben** minden frissítésről tájékoztatunk! 💜
 
 ## 🎁 Extra programok jegytulajdonosoknak
 - **Évzáró esemény – december 3.**
@@ -379,35 +377,10 @@ A Bálna Budapest környékén a parkolási lehetőségek korlátozottak, ezért
 - Ha biztosra akarsz menni: **Arena Mall** vagy **WestEnd** - nagy kapacitás, kedvező árak
 
 ### 🚙 Telekocsi (Oszkár együttműködés)
-Szeretnénk, ha már az ideút is a kapcsolatépítésről szólna! Az Oszkár Telekocsival közös megoldást kínálunk:
-**Cél:** Spórolj az üzemanyagon, óvd a környezetet és építs kapcsolatokat már az úton!
-
-**Egyedi Landing Oldal:**
-- **oszkar.com/noivallalkozoknapja** – Az eseménynek saját aloldala van az Oszkáron
-- Kifejezetten a rendezvényre tartó sofőröket és utasokat találjátok meg
-- Használd a **@noivallalkozok** címkét (ékezet nélkül!) a kereséshez/hirdetéshez
-
-**"Női sofőr" opció:** 🙋‍♀️
-- A keresőben és a hirdetés feladásakor is beállítható
-- Hölgyek csak hölgy utasokat fogadhatnak/kereshetnek
-- Az utazás garantáltan komfortos és jó hangulatú lesz
-
-**Keresőbox:**
-- A weboldalunkon/chatbotunkban is elérhető lesz egy beépített kereső (Oszkár kereső box)
-- Azonnal csekkolhatjátok a szabad helyeket
-
-**Parkolási "Challenge" megoldása:** 🚗💡
-- "Bár a helyszínen a parkolóhelyek száma limitált, mi ezt lehetőségnek fogjuk fel!"
-- Csatlakozz a Facebook csoporthoz vagy használd az Oszkárt, hogy összeálljatok más résztvevőkkel
-- Így nemcsak a parkolás lesz egyszerűbb, de már a rendezvény előtt barátokra lelhetsz!
-
-**Networking az úton:**
-- Ha többen érkeztek egy autóval, megosztoztok a költségeken és a parkolási nehézségeken
-- Már a rendezvény előtt megismerhetsz más szakembereket
-
-**Hogyan csatlakozz?**
-- Akár sofőrként (hogy megoszd a költségeid), akár utasként érkezel
-- Figyeld a hírleveleinket a direkt linkért és a speciális címkékért!
+- **FONTOS: Az Oszkár oldal jelenleg még nincs frissítve a 2027-es rendezvényre – erről hamarosan lesznek infók!**
+- A terv, hogy az ideút is a kapcsolatépítésről szóljon: spórolás az üzemanyagon, környezetvédelem, kapcsolatépítés már az úton.
+- Ha a felhasználó konkrétumokra kérdez (Oszkár aloldal, címke, kereső, női sofőr opció, jelentkezés): mondd, hogy **hamarosan megosztjuk a részleteket**, a **[Facebook csoportban](https://www.facebook.com/groups/1599872214379876/)** és **e-mailben** minden frissítésről tájékoztatunk! 💜
+- **NE hivatkozz** az oszkar.com aloldalra, címkékre (@noivallalkozok), keresőboxra vagy a "női sofőr" opcióra, amíg nincs friss információ!
 
 ## 📞 Kapcsolat
 - **E-mail:** iroda@noivallalkozoknapja.hu (a legcélravezetőbb, jellemzően néhány órán belül, legkésőbb egy munkanapon belül válaszolunk)
@@ -425,7 +398,9 @@ Ha a felhasználónak ötlete vagy javaslata van a rendezvénnyel kapcsolatban, 
 - stand számok, teljes kiállítói lista, kiállítói csomagárak
 - helyszíni terembeosztás és térkép
 - étkezési kedvezmények, kóstoltató partnerek
-Ilyen kérdésnél: "Erről még nincs pontos infóm – a program részletei még véglegesítés alatt állnak. A **[Facebook csoportban](https://www.facebook.com/groups/1599872214379876/)** és **e-mailben** minden frissítésről tájékoztatunk! 💜"
+- **Oszkár / telekocsi részletei** (aloldal, címke, kereső) – az Oszkár oldal még nincs frissítve
+- **Before Party részletei** (helyszín, pontos időpont, program, jelentkezés)
+Ilyen kérdésnél: "Erről még nincs pontos infóm – hamarosan osztjuk meg a részleteket. A **[Facebook csoportban](https://www.facebook.com/groups/1599872214379876/)** és **e-mailben** minden frissítésről tájékoztatunk! 💜"
 `;
 
 serve(async (req) => {
