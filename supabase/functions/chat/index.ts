@@ -94,8 +94,16 @@ const ragKnowledgeBase = `
 - Egész napos vállalkozói élmény: előadások, workshopok, networking, kiállítói tér
 - **Főszervező / megálmodó:** Mihalik Gyöngyvér (a Női Vállalkozók Napja alapítója)
 
+## ✅ GYAKORI KÉRDÉSEK – HITELES VÁLASZOK
+- **Reggeli meditáció:** fixen lesz, **08:15–08:45** között. Nem kell külön regisztrálni, bárki részt vehet. Hogy ki tartja, az még egyeztetés alatt (NE nevezz meg senkit).
+- **Ruhatár:** **ingyenes**. A ruhatár kapacitása miatt elsősorban kabátok és kisebb kiegészítők elhelyezésére van lehetőség.
+- **Csomagmegőrző:** nagyobb csomagokat sajnos nem tudunk tárolni – ezek elhelyezéséről a résztvevőnek saját magának kell gondoskodnia. Kabátot, kisebb kiegészítőket a ruhatárban le lehet adni.
+- **Állatbarát / kutya:** a helyszín alapvetően kutyabarát, viszont ekkora tömeg esetén érdemes mérlegelni, hogy otthon hagyja a négylábú kedvencét.
+- **Rendezvényfotók:** igen, minden résztvevőnek küldünk hozzáférést a teljes albumhoz a rendezvényt követően, néhány héten belül. A képeket le is lehet tölteni, menteni.
+- **Szórólapozás, márkanépszerűsítés, marketing a helyszínen:** marketingtevékenységre kizárólag kiállítóként vagy szponzorként, az előzetesen egyeztetett feltételek mentén és/vagy a saját standnál van lehetőség. **A gerilla marketing minden résztvevő (kiállító és látogató egyaránt) számára szigorúan tilos, és akár a rendezvényről történő kizárással is járhat.** Kiállítói/szponzori megjelenés iránt érdeklődni az iroda@noivallalkozoknapja.hu címen lehet.
+
 ## 📅 PROGRAM - MÉG VÉGLEGESÍTÉS ALATT (KRITIKUS SZABÁLY)
-**A program részletei még véglegesítés alatt állnak. A pontos időpontokat és helyszíneket később tesszük közzé.**
+**A program részletei még véglegesítés alatt állnak. A részleteket, a pontos időpontokat és az előadótermek beosztását később tesszük közzé.**
 - Ha bárki konkrét programról, idősávról, teremről, előadás kezdetéről kérdez, **PONTOSAN ezt a mondatot** használd, és semmiképp ne találj ki időpontot vagy termet!
 - Azt elmondhatod, hogy **3 párhuzamos előadóteremben** (Görgei, Hadik, Aggházy terem) lesznek előadások 8:00 és 18:30 között, és kik a már megerősített előadók.
 - Minden frissítésről **e-mailben** és a **Facebook csoportban** tájékoztatunk, illetve a weboldalon folyamatosan frissül a program.
@@ -524,7 +532,7 @@ Ha szállásról vagy közlekedésről kérdeznek, tereld őket a tömegközleke
 
 ## 📅 PROGRAM - A LEGFONTOSABB AKTUÁLIS SZABÁLY
 A 2027-es program még nem végleges. Ha bárki programról, időpontról, teremről, előadás kezdetéről, terembeosztásról vagy napirendről kérdez, ezt válaszold:
-"**A program részletei még véglegesítés alatt állnak. A pontos időpontokat és helyszíneket később tesszük közzé.**"
+"**A program részletei még véglegesítés alatt állnak. A részleteket, a pontos időpontokat és az előadótermek beosztását később tesszük közzé.**"
 - Ehhez hozzáteheted, hogy a rendezvény **2027. március 18-án 8:00–18:30 között**, a **Bálna Budapestben**, **3 párhuzamos előadóteremben (Görgei, Hadik, Aggházy terem)** zajlik, és felsorolhatod a már megerősített előadókat.
 - **SOHA ne adj meg idősávot, termet vagy előadáscímet** – ilyen adat még nem létezik!
 - Ha előadóról kérdeznek: mondd el a nevét és a szakterületét, de az időpontot NE találd ki.
