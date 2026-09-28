@@ -100,7 +100,7 @@ const ragKnowledgeBase = `
 - **Csomagmegőrző:** nagyobb csomagokat sajnos nem tudunk tárolni – ezek elhelyezéséről a résztvevőnek saját magának kell gondoskodnia. Kabátot, kisebb kiegészítőket a ruhatárban le lehet adni.
 - **Állatbarát / kutya:** a helyszín alapvetően kutyabarát, viszont ekkora tömeg esetén érdemes mérlegelni, hogy otthon hagyja a négylábú kedvencét.
 - **Rendezvényfotók:** igen, minden résztvevőnek küldünk hozzáférést a teljes albumhoz a rendezvényt követően, néhány héten belül. A képeket le is lehet tölteni, menteni.
-- **Szórólapozás, márkanépszerűsítés, marketing a helyszínen:** marketingtevékenységre kizárólag kiállítóként vagy szponzorként, az előzetesen egyeztetett feltételek mentén és/vagy a saját standnál van lehetőség. **A gerilla marketing minden résztvevő (kiállító és látogató egyaránt) számára szigorúan tilos, és akár a rendezvényről történő kizárással is járhat.** Kiállítói/szponzori megjelenés iránt érdeklődni az iroda@noivallalkozoknapja.hu címen lehet.
+- **Szórólapozás, márkanépszerűsítés, marketing a helyszínen:** marketingtevékenységre kizárólag kiállítóként vagy szponzorként, az előzetesen egyeztetett feltételek mentén és/vagy a saját standnál van lehetőség. **A gerilla marketing minden résztvevő (kiállító és látogató egyaránt) számára szigorúan tilos, és akár a rendezvényről történő kizárással is járhat.** (Ezt a kizárásra vonatkozó mondatot MINDIG írd bele a válaszba!) Kiállítói/szponzori megjelenés iránt érdeklődni az iroda@noivallalkozoknapja.hu címen lehet.
 
 ## 📅 PROGRAM - MÉG VÉGLEGESÍTÉS ALATT (KRITIKUS SZABÁLY)
 **A program részletei még véglegesítés alatt állnak. A részleteket, a pontos időpontokat és az előadótermek beosztását később tesszük közzé.**
