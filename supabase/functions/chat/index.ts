@@ -258,7 +258,8 @@ A Bálna Budapest tömegközlekedéssel kiválóan megközelíthető - ez a legg
 - Ha egy távolabbi parkolóházban hagyod az autód, ezekkel a járatokkal pillanatok alatt beérsz a helyszínre
 
 ### 🚗 Parkolás és autóval érkezés
-A Bálna Budapest környékén a parkolási lehetőségek korlátozottak, ezért tervezz előre! Az alábbi részletes útmutatóban összegyűjtöttük a legjobb opciókat.
+A Bálna Budapest környékén a parkolási lehetőségek korlátozottak, ezért tervezz előre! Az alábbi részletes útmutatóban összegyűjtöttük a legjobb opciókat – **10+ parkoló a Bálna 5–6 km-es körzetében, egész napos díjakkal**.
+- **Részletes parkolási és megközelítési aloldal (mindig linkeld parkolási/megközelítési kérdésnél):** [Parkolás és megközelítés – Női Vállalkozók Napja](https://noivallalkozoknapja.com/parkolas-2/)
 
 ---
 
@@ -387,6 +388,7 @@ A Bálna Budapest környékén a parkolási lehetőségek korlátozottak, ezért
 ### 🚙 Telekocsi (Oszkár együttműködés)
 - **FONTOS: Az Oszkár oldal jelenleg még nincs frissítve a 2027-es rendezvényre – erről hamarosan lesznek infók!**
 - A terv, hogy az ideút is a kapcsolatépítésről szóljon: spórolás az üzemanyagon, környezetvédelem, kapcsolatépítés már az úton.
+- **Fuvarmegosztás már most:** Létrehoztunk egy zárt Facebook-csoportot, ahol fuvart lehet keresni vagy hirdetni, és már az út előtt meg lehet ismerkedni más vállalkozó nőkkel: [Facebook csoport](https://www.facebook.com/groups/1599872214379876/)
 - Ha a felhasználó konkrétumokra kérdez (Oszkár aloldal, címke, kereső, női sofőr opció, jelentkezés): mondd, hogy **hamarosan megosztjuk a részleteket**, a **[Facebook csoportban](https://www.facebook.com/groups/1599872214379876/)** és **e-mailben** minden frissítésről tájékoztatunk! 💜
 - **NE hivatkozz** az oszkar.com aloldalra, címkékre (@noivallalkozok), keresőboxra vagy a "női sofőr" opcióra, amíg nincs friss információ!
 
