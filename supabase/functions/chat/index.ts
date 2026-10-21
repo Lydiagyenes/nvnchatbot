@@ -472,7 +472,7 @@ serve(async (req) => {
   - BASIC: ${pricingInfo.currentPrices.basic.original}${pricingInfo.introActive ? ` helyett **${pricingInfo.currentPrices.basic.discounted}**` : ""}
   - PRÉMIUM: ${pricingInfo.currentPrices.premium.original}${pricingInfo.introActive ? ` helyett **${pricingInfo.currentPrices.premium.discounted}**` : ""}
   - VIP: ${pricingInfo.currentPrices.vip.original}${pricingInfo.introActive ? ` helyett **${pricingInfo.currentPrices.vip.discounted}**` : ""}
-${pricingInfo.introActive ? "- A bevezető akció **2026. október 20. éjfélig** tart!" : "- A bevezető akció lejárt: az aktuális akciós árakért irányítsd a noivallalkozoknapja.com oldalra, és ne találj ki kedvezményt!"}
+${pricingInfo.introActive ? `- Ez az ár **${pricingInfo.currentPeriod.nextChange}** érvényes, utána emelkedik (a következő árat NE mondd meg)!` : "- Az aktuális árakért irányítsd a noivallalkozoknapja.com oldalra, és ne találj ki árat vagy kedvezményt!"}
 - Mindig a PONTOS aktuális árakat mondd!
 
 ## Személyiséged és stílusod
