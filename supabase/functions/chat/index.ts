@@ -40,37 +40,33 @@ const getCurrentDate = () => new Date();
 const getPricingInfo = () => {
   const now = getCurrentDate();
 
-  // Ismert árperiódus: nyitónapi / bevezető akció 2026. október 20. éjfélig
-  const periods = [
-    { deadline: new Date(2026, 9, 20, 23, 59, 59), discount: "56%", label: "bevezető akció – 2026. október 20. éjfélig" },
-    { deadline: new Date(2027, 2, 18), discount: "az aktuális kedvezmény a weboldalon látható", label: "az aktuális árakat a noivallalkozoknapja.com oldalon találod" },
-  ];
-
-  // Akciós árak a bevezető időszakban (2026. október 20. éjfélig)
-  const introPrices = {
-    basic: { original: "49.900 Ft + áfa", discounted: "21.900 Ft + áfa" },
-    premium: { original: "59.900 Ft + áfa", discounted: "26.900 Ft + áfa" },
-    vip: { original: "99.900 Ft + áfa", discounted: "74.900 Ft + áfa" },
-  };
-
   const listPrices = {
     basic: { original: "49.900 Ft + áfa" },
     premium: { original: "59.900 Ft + áfa" },
     vip: { original: "99.900 Ft + áfa" },
   };
 
-  let currentPeriod = periods[periods.length - 1];
-  for (const period of periods) {
-    if (now <= period.deadline) {
-      currentPeriod = period;
-      break;
-    }
-  }
+  // Árperiódusok (forrás: pénzügyi táblázat). A periódus az "until" napon éjfélig érvényes.
+  const periods = [
+    { until: new Date(2026, 9, 20, 23, 59, 59), label: "bevezető akció – 2026. október 20. éjfélig", nextChange: "2026. október 20. éjfélig", basic: "21.900", premium: "26.900", vip: "74.900" },
+    { until: new Date(2026, 10, 8, 23, 59, 59), label: "kedvezményes időszak – 2026. november 8-ig", nextChange: "2026. november 8-ig", basic: "29.000", premium: "34.000", vip: "84.000" },
+    { until: new Date(2026, 11, 7, 23, 59, 59), label: "kedvezményes időszak – 2026. december 7-ig", nextChange: "2026. december 7-ig", basic: "34.000", premium: "39.000", vip: "89.000" },
+  ];
 
-  const introActive = now <= periods[0].deadline;
-  const currentPrices = introActive ? introPrices : listPrices;
+  const current = periods.find((p) => now <= p.until);
+  const introActive = !!current;
+  const currentPeriod = current
+    ? { discount: "kedvezményes ár", label: current.label, nextChange: current.nextChange }
+    : { discount: "az aktuális ár a weboldalon látható", label: "az aktuális árakat a noivallalkozoknapja.com oldalon találod", nextChange: "" };
+  const currentPrices = current
+    ? {
+        basic: { original: listPrices.basic.original, discounted: `${current.basic} Ft + áfa` },
+        premium: { original: listPrices.premium.original, discounted: `${current.premium} Ft + áfa` },
+        vip: { original: listPrices.vip.original, discounted: `${current.vip} Ft + áfa` },
+      }
+    : listPrices;
 
-  return { currentPeriod, currentPrices, introActive, introPrices, listPrices, periods };
+  return { currentPeriod, currentPrices, introActive, listPrices, periods };
 };
 
 // RAG Knowledge Base - NVN 2027 Teljes tudásbázis
@@ -141,14 +137,7 @@ online jelenlét · AI és modern eszközök · social media · ügyfélszerzés
 ## 🎫 Jegytípusok és árak
 Teljes árak: BASIC **49.900 Ft + áfa**, PRÉMIUM **59.900 Ft + áfa**, VIP **99.900 Ft + áfa**.
 
-**Bevezető akciós árak (2026. október 20. éjfélig):**
-| Jegytípus | Teljes ár | Akciós ár |
-|---|---|---|
-| BASIC | 49.900 Ft + áfa | **21.900 Ft + áfa** |
-| PRÉMIUM (legnépszerűbb) | 59.900 Ft + áfa | **26.900 Ft + áfa** |
-| VIP (legjobb ár-érték) | 99.900 Ft + áfa | **74.900 Ft + áfa** |
-
-Az akciós időszak lejárta után **mindig a weboldalon látható aktuális árat** kell nézni – a rendszerprompt tetején szereplő aktuális árinformációt használd, és ha bizonytalan, irányíts a noivallalkozoknapja.com oldalra!
+**Az árak időszakonként emelkednek.** MINDIG kizárólag a rendszerprompt tetején szereplő, mai dátumra érvényes árat mondd! Jövőbeli áremelés mértékét, későbbi időszakok árait, last call kedvezményt SOHA ne áruld el és ne találd ki – legfeljebb annyit mondhatsz, hogy érdemes minél előbb jegyet venni, mert az árak időszakonként emelkednek. Ha bizonytalan, irányíts a noivallalkozoknapja.com oldalra!
 
 ### BASIC jegy tartalma
 - Szabadon választhatsz az összes előadás / workshop közül
@@ -483,7 +472,7 @@ serve(async (req) => {
   - BASIC: ${pricingInfo.currentPrices.basic.original}${pricingInfo.introActive ? ` helyett **${pricingInfo.currentPrices.basic.discounted}**` : ""}
   - PRÉMIUM: ${pricingInfo.currentPrices.premium.original}${pricingInfo.introActive ? ` helyett **${pricingInfo.currentPrices.premium.discounted}**` : ""}
   - VIP: ${pricingInfo.currentPrices.vip.original}${pricingInfo.introActive ? ` helyett **${pricingInfo.currentPrices.vip.discounted}**` : ""}
-${pricingInfo.introActive ? "- A bevezető akció **2026. október 20. éjfélig** tart!" : "- A bevezető akció lejárt: az aktuális akciós árakért irányítsd a noivallalkozoknapja.com oldalra, és ne találj ki kedvezményt!"}
+${pricingInfo.introActive ? `- Ez az ár **${pricingInfo.currentPeriod.nextChange}** érvényes, utána emelkedik (a következő árat NE mondd meg)!` : "- Az aktuális árakért irányítsd a noivallalkozoknapja.com oldalra, és ne találj ki árat vagy kedvezményt!"}
 - Mindig a PONTOS aktuális árakat mondd!
 
 ## Személyiséged és stílusod
