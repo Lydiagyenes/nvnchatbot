@@ -50,7 +50,7 @@ const getPricingInfo = () => {
   const periods = [
     { until: new Date(2026, 9, 20, 23, 59, 59), label: "bevezető akció – 2026. október 20. éjfélig", nextChange: "2026. október 20. éjfélig", basic: "21.900", premium: "26.900", vip: "74.900" },
     { until: new Date(2026, 10, 8, 23, 59, 59), label: "kedvezményes időszak – 2026. november 8-ig", nextChange: "2026. november 8-ig", basic: "24.900", premium: "29.900", vip: "79.900" },
-    { until: new Date(2026, 11, 7, 23, 59, 59), label: "kedvezményes időszak – 2026. december 7-ig", nextChange: "2026. december 7-ig", basic: "34.000", premium: "39.000", vip: "89.000" },
+    { until: new Date(2026, 11, 7, 23, 59, 59), label: "kedvezményes időszak – 2026. december 7-ig", nextChange: "2026. december 7-ig", basic: "26.900", premium: "31.900", vip: "89.900" },
   ];
 
   const current = periods.find((p) => now <= p.until);
